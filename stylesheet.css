@@ -1606,13 +1606,21 @@ p {
     margin: 0 !important;
   }
 }
-
+	
 /* Phone */
 @media screen and (max-width: 320px){
 
-}
+  .datadesign h2 {
+    font-size: 30px;
+  }
 
-/* Small Phone*/
-@media screen and (max-width: 240px){
+  .datadesign #rectangle {
+    width: 170px;
+    margin-left: -170px;
+  }
+
+  footer {
+    font-size: 10px;
+  }
 
 }
