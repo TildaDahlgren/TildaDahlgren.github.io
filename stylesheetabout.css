@@ -1,8 +1,10 @@
 html, body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
-  height: 100%;
-  min-height: 100%;
+  background-color: #ededed;
+  overflow-x: hidden;
 }
 
 body {
@@ -228,7 +230,7 @@ ul a.before:hover:before, ul a.after:hover:after{
   padding: 30px;
   text-align: left;
   vertical-align: top;
-  background-color: #e2e2e2;
+  background-color: #e5e5e5;
   border-radius: 10px;
 }
 
@@ -240,7 +242,7 @@ ul a.before:hover:before, ul a.after:hover:after{
   padding: 30px;
   text-align: left;
   vertical-align: top;
-  background-color: #e2e2e2;
+  background-color: #e5e5e5;
   border-radius: 10px;
 }
 
@@ -285,7 +287,7 @@ footer {
 
 
 
-@media only screen and (min-width: 879px) and (max-width: 1020px) {
+@media only screen and (min-width: 990px) and (max-width: 1020px) {
 
 
   #study {
@@ -312,6 +314,10 @@ footer {
     font-size: 16px;
   }
 
+  .lower-div {
+    margin-top: 87px;
+  }
+
   .lower-div img {
     width: 80%;
   }
@@ -319,14 +325,15 @@ footer {
 }
 
 
-@media only screen and (min-width: 879px) and (max-width: 990px) {
+@media only screen and (min-width: 880px) and (max-width: 989px) {
 
   ul #projects, ul #about, ul #contact {
     margin-left: 150px;
   }
 
   #model {
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-top: 30px;
   }
 
   .lower-div img {
@@ -336,7 +343,7 @@ footer {
 }
 
 
-@media only screen and (min-width: 663px) and (max-width: 880px) {
+@media only screen and (min-width: 665px) and (max-width: 879px) {
 
   ul #projects, ul #about, ul #contact {
     margin-left: 100px;
@@ -363,7 +370,7 @@ footer {
 }
 
 
-@media only screen and (min-width: 569px) and (max-width: 664px) {
+@media only screen and (min-width: 570px) and (max-width: 664px) {
 
   ul #home {
     margin-left: 40px;
@@ -376,11 +383,16 @@ footer {
 
   .whoistilda {
     width: 450px;
+    margin-bottom: 45px;
   }
 
   .whoistilda p {
     width: 430px;
     font-size: 12px
+  }
+
+  .lower-div {
+    margin-top: 70px;
   }
 
   #study {
@@ -417,7 +429,7 @@ footer {
 
 }
 
-@media only screen and (min-width: 489px) and (max-width: 570px) {
+@media only screen and (min-width: 490px) and (max-width: 569px) {
 
   ul #home {
     margin-left: 20px;
@@ -428,9 +440,21 @@ footer {
     text-align: center;
   }
 
+  .nav a {
+    font-size: 11px;
+  }
+
   .whoistilda {
     width: 450px;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
+  }
+
+  .upper-div h1 {
+    font-size: 67px;
+  }
+
+  .upper-div h2 {
+    margin-top: -35px;
   }
 
   .whoistilda p {
@@ -475,15 +499,74 @@ footer {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 490px) {
+@media only screen and (min-width: 310px) and (max-width: 489px) {
+
+
+  ul #home {
+    margin-left: 0px;
+  }
+
+  ul #projects {
+    margin-left: 0;
+    visibility: hidden;
+    font-size: 0;
+  }
+
+  ul #about {
+    margin-left: -35px;
+  }
+
+  ul #contact {
+    margin-left: 25px;
+  }
+
+  .nav a {
+    font-size: 10px;
+  }
+
+  .upper-div {
+    margin-top: 90px;
+  }
+
+  .upper-div h1 {
+    font-size: 45px;
+  }
+
+  .upper-div h2 {
+    margin-top: -25px;
+    font-size: 9px;
+  }
+
+  .upper-div h2 span {
+    font-size: 6px;
+  }
+
+  .upper-div p {
+    width: 250px;
+    font-size: 12px;
+  }
+
+  .upper-div img {
+    width: 250px;
+  }
+
+  .lower-div h1 {
+    font-size: 30px;
+  }
+
+  .lower-div p {
+    width: 250px;
+    font-size: 12px;
+  }
 
   .whoistilda {
-    width: 280px;
+    width: 300px;
+    margin-bottom: 60px;
   }
 
   .whoistilda p {
-    width: 430px;
-    font-size: 12px
+    width: 270px;
+    font-size: 12px;
   }
 
   #study {
@@ -514,8 +597,13 @@ footer {
     font-size: 14px;
   }
 
+  .lower-div {
+    margin-top: 50px;
+  }
+
   .lower-div img {
     width: 80%;
+    margin-top: 40px;
   }
 
   #open {
@@ -553,66 +641,8 @@ footer {
     transition: 0.5s;
   }
 
-}
-
-@media only screen and (max-width: 489px) {
-
-
-  ul #home {
-    margin-left: 0px;
-  }
-
-  ul #projects {
-    margin-left: 0;
-    visibility: hidden;
-    font-size: 0;
-  }
-
-  ul #about {
-    margin-left: -35px;
-  }
-
-  ul #contact {
-    margin-left: 25px;
-  }
-
-  .nav a {
-    font-size: 10px;
-  }
-
-  .upper-div {
-    margin-top: 90px;
-  }
-
-  .upper-div h1 {
-    font-size: 50px;
-  }
-
-  .upper-div h2 {
-    margin-top: -30px;
-    font-size: 10px;
-  }
-
-  .upper-div p {
-    width: 250px;
-    font-size: 12px;
-  }
-
-  .upper-div img {
-    width: 250px;
-  }
-
-  .lower-div h1 {
-    font-size: 30px;
-  }
-
-  .lower-div p {
-    width: 250px;
-    font-size: 12px;
-  }
-
-
   footer {
     font-size: 10px;
   }
+
 }
