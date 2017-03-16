@@ -1,15 +1,22 @@
 html, body {
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
-  height: 100%;
-  min-height: 100%;
   background-color: #ededed;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
-  min-height: 600px;
   background-color: #ededed;
+}
+
+#background {
+  width: 100%;
+  height: 650px;
+  top: 0;
+  left: 0;
   background-image: url("Pictures/tildabackg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -227,7 +234,7 @@ ul a.before:hover:before, ul a.after:hover:after{
                                         /* PROJECTS - 45 + 30 (photoshop) */
 
 .lower-div {
-  margin-top: 177px;
+  margin-top: 30px;
 }
 
 #work {
@@ -292,76 +299,6 @@ ul a.before:hover:before, ul a.after:hover:after{
   margin-top: 23px;
 }
 
-.button {
-  position: absolute;
-  width: 550px;
-  left: 0;
-  top: 193px;
-  text-align: center;
-  text-transform: none;
-  text-decoration: none;
-  line-height: 50px;
-  cursor: pointer;
-  opacity: 0;
-  transition: opacity .45s ease;
-}
-
-.lower-div a, .lower-div a:hover, .lower-div a:visited {
-  font-family: "Cardea", serif;
-  font-size: 23px;
-  font-weight: 100;
-  color: #000000;
-  transition: 1s ease;
-}
-
-#boomerang:hover .button {
-  opacity: 1;
-}
-
-#bubblelicious:hover .button {
-  opacity: 1;
-}
-
-#missingpeople:hover .button {
-  opacity: 1;
-}
-
-#kittenscup:hover .button {
-  opacity: 1;
-}
-
-.overlay {
-  position: absolute;
-  top: 22px;
-  left: 0;
-  width: 550px;
-  height: 386px;
-  color: #ffffff;
-  background: rgba(0, 0, 0, 0);
-  transition: background 0.7s ease;
-}
-
-#boomerang:hover .overlay {
-  display: block;
-  background: rgba(255, 255, 255, 0.9);
-}
-
-#bubblelicious:hover .overlay {
-  display: block;
-  background: rgba(255, 255, 255, 0.9);
-}
-
-#missingpeople:hover .overlay {
-  display: block;
-  background: rgba(255, 255, 255, 0.9);
-}
-
-#kittenscup:hover .overlay {
-  display: block;
-  background: rgba(255, 255, 255, 0.9);
-}
-
-
 footer {
   right: 0;
   bottom: 0;
@@ -389,7 +326,7 @@ footer {
     margin-top: 0;
     margin-right: 70px;
     font-family: "Fjalla One", sans-serif;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 100;
     text-align: right;
     text-transform: uppercase;
@@ -399,10 +336,10 @@ footer {
 
   .tilda h2 {
     position: relative;
-    margin-top: -67px;
+    margin-top: -57px;
     margin-right: 70px;
     font-family: "Fjalla One", sans-serif;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 100;
     text-align: left;
     text-transform: uppercase;
@@ -418,7 +355,7 @@ footer {
   }
 
   .lower-div {
-    margin-top: 160px;
+    margin-top: 25px;
   }
 
   #boomerang img {
@@ -427,18 +364,26 @@ footer {
 
   #bubblelicious img {
     width: 400px;
-    margin-left: 50px;
+    margin-left: 20px;
   }
 
   #missingpeople img {
     width: 400px;
-    margin-top: 50px;
+    margin-top: 40px;
   }
 
   #kittenscup img {
     width: 400px;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+
+  .button {
+    visibility: hidden;
+  }
+
+  .overlay {
+    visibility: hidden;
   }
 
 }
@@ -454,7 +399,7 @@ footer {
     margin-top: 0;
     margin-right: 30px;
     font-family: "Fjalla One", sans-serif;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 100;
     text-align: right;
     text-transform: uppercase;
@@ -464,70 +409,10 @@ footer {
 
   .tilda h2 {
     position: relative;
-    margin-top: -67px;
+    margin-top: -47px;
     margin-right: 30px;
     font-family: "Fjalla One", sans-serif;
-    font-size: 70px;
-    font-weight: 100;
-    text-align: left;
-    text-transform: uppercase;
-    color: #000000;
-    -webkit-transform:rotate(-180deg);
-    -moz-transform:rotate(-180deg);
-    -o-transform:rotate(-180deg);
-    transform:rotate(-180deg);
-  }
-
-  .lower-div {
-    margin-top: 150px;
-  }
-
-  #boomerang img {
-    width: 400px;
-  }
-
-  #bubblelicious img {
-    width: 400px;
-    margin-left: 30px;
-  }
-
-  #missingpeople img {
-    width: 400px;
-    margin-top: 30px;
-  }
-
-  #kittenscup img {
-    width: 400px;
-    margin-top: 30px;
-    margin-left: 30px;
-  }
-}
-
-@media only screen and (min-width: 663px) and (max-width: 880px) {
-
-  ul #projects, ul #about, ul #contact {
-    margin-left: 100px;
-  }
-
-  .tilda h1 {
-    position: relative;
-    margin-top: 0;
-    margin-right: 30px;
-    font-family: "Fjalla One", sans-serif;
-    font-size: 40px;
-    font-weight: 100;
-    text-align: right;
-    text-transform: uppercase;
-    text-decoration: underline;
-    color: #000000;
-  }
-
-  .tilda h2 {
-    position: relative;
-    margin-top: -37px;
-    margin-right: 30px;
-    font-family: "Fjalla One", sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 100;
     text-align: left;
     text-transform: uppercase;
@@ -539,7 +424,82 @@ footer {
   }
 
   .upper-div {
+    margin-left: 120px;
+  }
+
+  .upper-div h1 {
+    font-size: 17px;
+  }
+
+  .upper-div p {
+    margin-top: -5px;
+    font-size: 12px;
+  }
+
+  .lower-div {
+    margin-top: 25px;
+  }
+
+  #boomerang img {
+    width: 400px;
+  }
+
+  #bubblelicious img {
+    width: 400px;
+    margin-left: 15px;
+  }
+
+  #missingpeople img {
+    width: 400px;
+    margin-top: 30px;
+  }
+
+  #kittenscup img {
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+
+}
+
+@media only screen and (min-width: 785px) and (max-width: 880px) {
+
+  ul #projects, ul #about, ul #contact {
     margin-left: 100px;
+  }
+
+  .tilda h1 {
+    position: relative;
+    margin-top: 0;
+    margin-right: 30px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #000000;
+  }
+
+  .tilda h2 {
+    position: relative;
+    margin-top: -42px;
+    margin-right: 30px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+    -webkit-transform:rotate(-180deg);
+    -moz-transform:rotate(-180deg);
+    -o-transform:rotate(-180deg);
+    transform:rotate(-180deg);
+  }
+
+  .upper-div {
+    margin-top: 0px;
+    margin-left: 130px;
   }
 
   .upper-div h1 {
@@ -549,38 +509,43 @@ footer {
   .upper-div p {
     margin-top: -5px;
     font-size: 12px;
-
   }
 
   .lower-div {
-    margin-top: 230px;
+    margin-top: 25px;
   }
 
   #boomerang img {
-    width: 250px;
+    width: 350px;
   }
 
   #bubblelicious img {
-    width: 250px;
-    margin-left: 30px;
+    width: 350px;
+    margin-left: 10px;
   }
 
   #missingpeople img {
-    width: 250px;
+    width: 350px;
     margin-top: 30px;
   }
 
   #kittenscup img {
-    width: 250px;
+    width: 350px;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 10px;
   }
+
 }
 
-@media only screen and (min-width: 569px) and (max-width: 664px) {
+@media only screen and (min-width: 569px) and (max-width: 784px) {
 
   body {
     background: #ededed;
+  }
+
+  #background {
+    height: 400px;
+    background-image: none;
   }
 
   ul #home {
@@ -600,7 +565,7 @@ footer {
     text-align: center;
     margin-top: 0;
     font-family: "Fjalla One", sans-serif;
-    font-size: 40px;
+    font-size: 47px;
     font-weight: 100;
     text-align: center;
     text-transform: uppercase;
@@ -616,7 +581,7 @@ footer {
     text-align: center;
     margin-top: -10px;
     font-family: "Fjalla One", sans-serif;
-    font-size: 40px;
+    font-size: 47px;
     font-weight: 100;
     text-align: center;
     text-transform: uppercase;
@@ -641,38 +606,43 @@ footer {
   .upper-div p {
     margin-top: -5px;
     font-size: 12px;
-
   }
 
   .lower-div {
-    margin-top: 70px;
+    margin-top: 25px;
   }
 
   #boomerang img {
-    width: 450px;
+    width: 250px;
   }
 
   #bubblelicious img {
-    width: 450px;
-    margin-left: -20px;
+    width: 250px;
+    margin-left: -10px;
   }
 
   #missingpeople img {
-    width: 450px;
-    margin-top: 30px;
+    width: 250px;
+    margin-top: 20px;
   }
 
   #kittenscup img {
-    width: 450px;
-    margin-top: 30px;
-    margin-left: -20px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: -10px;
   }
+
 }
 
 @media only screen and (min-width: 489px) and (max-width: 570px) {
 
   body {
     background: #ededed;
+  }
+
+  #background {
+    height: 400px;
+    background-image: none;
   }
 
   ul #home {
@@ -685,7 +655,7 @@ footer {
   }
 
   .tilda {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .tilda h1 {
@@ -696,7 +666,7 @@ footer {
     text-align: center;
     margin-top: 0;
     font-family: "Fjalla One", sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 100;
     text-align: center;
     text-transform: uppercase;
@@ -712,7 +682,7 @@ footer {
     text-align: center;
     margin-top: -10px;
     font-family: "Fjalla One", sans-serif;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 100;
     text-align: center;
     text-transform: uppercase;
@@ -740,35 +710,41 @@ footer {
   }
 
   .lower-div {
-    margin-top: 70px;
+    margin-top: 25px;
   }
 
   #boomerang img {
-    width: 450px;
+    width: 400px;
   }
 
   #bubblelicious img {
-    width: 450px;
+    width: 400px;
     margin-left: -20px;
   }
 
   #missingpeople img {
-    width: 450px;
+    width: 400px;
     margin-top: 30px;
   }
 
   #kittenscup img {
-    width: 450px;
+    width: 400px;
     margin-top: 30px;
     margin-left: -20px;
   }
+
 }
 
 @media only screen and (min-width: 310px) and (max-width: 490px) {
 
   body {
     background: #ededed;
-    width: 320px;
+    width: 100%;
+  }
+
+  #background {
+    height: 400px;
+    background-image: none;
   }
 
   ul #home {
@@ -786,7 +762,11 @@ footer {
   }
 
   ul #contact {
-    margin-left: 0px;
+    margin-left: 40px;
+  }
+
+  .nav a {
+    font-size: 10px;
   }
 
   .tilda {
@@ -855,7 +835,7 @@ footer {
   }
 
   .lower-div {
-    margin-top: 70px;
+    margin-top: 25px;
   }
 
   #boomerang img {
@@ -877,32 +857,7 @@ footer {
     margin-top: 30px;
     margin-left: -20px;
   }
-}
 
-
-@media only screen and (max-width: 489px) {
-
-  ul #home {
-    margin-left: 0px;
-  }
-
-  ul #projects {
-    margin-left: 0;
-    visibility: hidden;
-    font-size: 0;
-  }
-
-  ul #about {
-    margin-left: -35px;
-  }
-
-  ul #contact {
-    margin-left: 25px;
-  }
-
-  .nav a {
-    font-size: 10px;
-  }
   footer {
     font-size: 10px;
   }
