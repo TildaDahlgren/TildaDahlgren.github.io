@@ -530,20 +530,24 @@ footer {
 
   .upper-div h1 {
     font-size: 45px;
+    font-weight: 400;
   }
 
   .upper-div h2 {
     margin-top: -25px;
     font-size: 9px;
+    font-weight: 400;
   }
 
   .upper-div h2 span {
     font-size: 6px;
+    font-weight: 400;
   }
 
   .upper-div p {
     width: 250px;
     font-size: 12px;
+    font-weight: 400;
   }
 
   .upper-div img {
@@ -567,6 +571,7 @@ footer {
   .whoistilda p {
     width: 270px;
     font-size: 12px;
+    font-weight: 800;
   }
 
   #study {
