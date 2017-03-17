@@ -601,11 +601,17 @@ footer {
 
   .upper-div h1 {
     font-size: 14px;
+    font-weight: 400;
+  }
+
+  .upper-div span {
+    font-weight: 400;
   }
 
   .upper-div p {
     margin-top: -5px;
     font-size: 12px;
+    font-weight: 500;
   }
 
   .lower-div {
@@ -702,11 +708,17 @@ footer {
 
   .upper-div h1 {
     font-size: 14px;
+    font-weight: 400;
+  }
+
+  .upper-div span {
+    font-weight: 400;
   }
 
   .upper-div p {
     margin-top: -5px;
     font-size: 12px;
+    font-weight: 400;
   }
 
   .lower-div {
@@ -819,10 +831,12 @@ footer {
   .upper-div h1 {
     font-size: 12px;
     margin-left: 0px;
+    font-weight: 400;
   }
 
   .upper-div span {
     font-size: 14px;
+    font-weight: 400;
     margin: 0 auto;
     text-align: center;
   }
@@ -830,6 +844,7 @@ footer {
   .upper-div p {
     margin-top: -2px;
     font-size: 12px;
+    font-weight: 400;
     margin: 0 auto;
     text-align: center;
   }
