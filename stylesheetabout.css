@@ -3,7 +3,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #ededed;
+  background-color: #f9f9f9;
   overflow-x: hidden;
 }
 
@@ -133,27 +133,27 @@ to   { opacity: 1; }
   width: 100%;
   position: relative;
   margin: 0 auto;
-  margin-top: 77px;
+  margin-top: 100px;
   text-align: center;
 }
 
 .upper-div h1 {
-  font-family: "Cardea", serif;
-  font-size: 77px;
-  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  font-size: 83px;
+  font-weight: 500;
   text-align: center;
-  text-transform: none;
+  text-transform: uppercase;
   color: #000000;
 }
 
 .upper-div h2 {
-  margin-top: -45px;
+  margin-top: -35px;
   font-family: "Fira Sans Four", sans-serif;
-  font-size: 12px;
-  font-weight: 100;
+  font-size: 17px;
+  font-weight: 300;
   text-align: center;
   text-transform: uppercase;
-  color: #000000;
+  color: #eda63d;
 }
 
 .upper-div h2 span {
@@ -165,8 +165,8 @@ to   { opacity: 1; }
   height: 110px;
   position: relative;
   margin: 0 auto;
-  margin-top: 80px;
-  margin-bottom: 90px;
+  margin-top: 130px;
+  margin-bottom: 80px;
   padding-top: 1px;
   text-align: center;
   border-left: 1px solid black;
@@ -176,7 +176,7 @@ to   { opacity: 1; }
 .whoistilda p {
   padding: 15px;
   font-family: "Abel", sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 100;
   color: #000000;
   text-align: center;
@@ -327,6 +327,25 @@ footer {
 
 @media only screen and (min-width: 990px) and (max-width: 1020px) {
 
+  .upper-div h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 82px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .upper-div h2 {
+    margin-top: -35px;
+    font-family: "Fira Sans Four", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #eda63d;
+  }
+
 
   #study {
     width: 350px;
@@ -374,6 +393,25 @@ footer {
     margin-right: -40px;
   }
 
+  .upper-div h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .upper-div h2 {
+    margin-top: -35px;
+    font-family: "Fira Sans Four", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #eda63d;
+  }
+
   #model {
     margin-left: 0px;
     margin-top: 30px;
@@ -395,6 +433,25 @@ footer {
   .sidebar-right-text {
     font-size: 19px;
     margin-right: -40px;
+  }
+
+  .upper-div h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 75px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .upper-div h2 {
+    margin-top: -35px;
+    font-family: "Fira Sans Four", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #eda63d;
   }
 
   .whoistilda {
@@ -429,6 +486,25 @@ footer {
     margin-right: -40px;
   }
 
+  .upper-div h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+  }
+
+  .upper-div h2 {
+    margin-top: -35px;
+    font-family: "Fira Sans Four", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #eda63d;
+  }
+
   .whoistilda {
     width: 450px;
     margin-bottom: 45px;
@@ -445,7 +521,7 @@ footer {
   }
 
   #study {
-    width: 350px;
+    width: 360px;
     height: 200px;
   }
 
@@ -459,7 +535,7 @@ footer {
 
   #model {
     width: 350px;
-    height: 200px;
+    height: 230px;
     margin-top: 30px;
     margin-left: 0px;
   }
@@ -496,29 +572,37 @@ footer {
   }
 
   .upper-div h1 {
-    font-size: 67px;
+    font-size: 55px;
   }
 
   .upper-div h2 {
     margin-top: -35px;
+    font-size: 12px;
   }
 
   .whoistilda p {
     width: 430px;
-    font-size: 12px
+    font-size: 10px
   }
 
   .lower-div {
     margin-top: 70px;
   }
 
+  .box {
+    height: 30px;
+    font-size: 13px;
+    line-height: 30px;
+  }
+
   #study {
-    width: 350px;
+    width: 330px;
     height: 200px;
   }
 
   #study h1 {
-    font-size: 20px;
+    font-family: "Abel", serif;
+    font-size: 16px;
   }
 
   #study p {
@@ -526,14 +610,15 @@ footer {
   }
 
   #model {
-    width: 350px;
-    height: 200px;
+    width: 330px;
+    height: 190px;
     margin-top: 30px;
     margin-left: 0px;
   }
 
   #model h1 {
-    font-size: 20px;
+    font-family: "Abel", serif;
+    font-size: 16px;
   }
 
   #model p {
@@ -598,42 +683,45 @@ footer {
 
   .whoistilda {
     width: 300px;
+    margin-top: 70px;
     margin-bottom: 60px;
     border: none;
   }
 
   .whoistilda p {
     width: 270px;
-    font-size: 12px;
-    font-weight: 800;
+    font-size: 11px;
+    font-weight: 300;
   }
 
   #study {
-    width: 250px;
-    height: 270px;
+    width: 230px;
+    height: 200px;
   }
 
   #study h1 {
-    font-size: 20px;
-  }
-
-  #study p {
+    font-family: "Abel", serif;
     font-size: 14px;
   }
 
+  #study p {
+    font-size: 12px;
+  }
+
   #model {
-    width: 250px;
-    height: 300px;
+    width: 230px;
+    height: 210px;
     margin-top: 30px;
     margin-left: 0px;
   }
 
   #model h1 {
-    font-size: 20px;
+    font-family: "Abel", serif;
+    font-size: 14px;
   }
 
   #model p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .lower-div {
