@@ -3,7 +3,7 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #ededed;
+  background-color: #f9f9f9;
   overflow-x: hidden;
 }
 
@@ -138,8 +138,8 @@ to   { opacity: 1; }
 }
 
 .upper-div h1 {
-  font-family: "Cardea", serif;
-  font-size: 77px;
+  font-family:  "Roboto", sans-serif;
+  font-size: 80px;
   font-weight: 100;
   text-align: center;
   text-transform: none;
@@ -240,6 +240,25 @@ footer {
     margin-right: -40px;
   }
 
+  .upper-div h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: none;
+    color: #000000;
+  }
+
+  .upper-div h2 {
+    margin-top: -45px;
+    font-family: "Fira Sans Four", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #eda63d;
+  }
+
 }
 
 
@@ -252,6 +271,25 @@ footer {
   .sidebar-right-text {
     font-size: 19px;
     margin-right: -50px;
+  }
+
+  .upper-div h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 75px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: none;
+    color: #000000;
+  }
+
+  .upper-div h2 {
+    margin-top: -35px;
+    font-family: "Fira Sans Four", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #eda63d;
   }
 
   .upper-div p {
@@ -276,8 +314,28 @@ footer {
     margin-right: -40px;
   }
 
+  .upper-div h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: none;
+    color: #000000;
+  }
+
+  .upper-div h2 {
+    margin-top: -35px;
+    font-family: "Fira Sans Four", sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #eda63d;
+  }
+
   .upper-div p {
-    width: 470px;
+    width: 440px;
+    font-size: 15px;
   }
 
   .upper-div img {
@@ -295,6 +353,25 @@ footer {
   .sidebar-right-text {
     font-size: 14px;
     margin-right: -25px;
+  }
+
+  .upper-div h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 54px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: none;
+    color: #000000;
+  }
+
+  .upper-div h2 {
+    margin-top: -35px;
+    font-family: "Fira Sans Four", sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #eda63d;
   }
 
   .upper-div p {
