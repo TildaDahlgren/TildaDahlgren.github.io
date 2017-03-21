@@ -10,7 +10,6 @@ html, body {
 a {
   cursor: pointer;
 }
-
 a:hover {
   cursor: pointer;
 }
@@ -191,6 +190,7 @@ to   { opacity: 1; }
   position: relative;
   margin: 0 auto;
   margin-top: 65px;
+  margin-bottom: 150px;
   text-align: center;
 }
 
@@ -212,11 +212,6 @@ to   { opacity: 1; }
   text-align: center;
 }
 
-.lower-div img {
-  width: 370px;
-  margin-top: 85px;
-  border: 35px solid #e0e0e0;
-}
 
 footer {
   right: 0;
@@ -233,224 +228,222 @@ footer {
 }
 
 
-
-
-/* Tablet landscapes */
+                                                  /* Tablet landscapes */
 @media only screen and (min-width: 879px) and (max-width: 990px) {
 
-.sidebar-left-text {
-font-size: 23px;
-}
+  .sidebar-left-text {
+    font-size: 23px;
+  }
 
-.sidebar-right-text {
-font-size: 23px;
-margin-right: -40px;
-}
+  .sidebar-right-text {
+    font-size: 23px;
+    margin-right: -40px;
+  }
 
-.upper-div h1 {
-  font-family: "Roboto", sans-serif;
-  font-size: 80px;
-  font-weight: 500;
-  text-align: center;
-  text-transform: none;
-  color: #000000;
-}
+  .upper-div h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: none;
+    color: #000000;
+  }
 
-.upper-div h2 {
-  margin-top: -45px;
-  font-family: "Fira Sans Four", sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-  text-align: center;
-  text-transform: uppercase;
-  color: #eda63d;
-}
+  .upper-div h2 {
+    margin-top: -45px;
+    font-family: "Fira Sans Four", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #eda63d;
+  }
 
 }
 
 
 @media only screen and (min-width: 659px) and (max-width: 880px) {
 
-.sidebar-left-text {
-font-size: 19px;
-}
+  .sidebar-left-text {
+    font-size: 19px;
+  }
 
-.sidebar-right-text {
-font-size: 19px;
-margin-right: -50px;
-}
+  .sidebar-right-text {
+    font-size: 19px;
+    margin-right: -50px;
+  }
 
-.upper-div h1 {
-  font-family: "Roboto", sans-serif;
-  font-size: 75px;
-  font-weight: 500;
-  text-align: center;
-  text-transform: none;
-  color: #000000;
-}
+  .upper-div h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 75px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: none;
+    color: #000000;
+  }
 
-.upper-div h2 {
-  margin-top: -35px;
-  font-family: "Fira Sans Four", sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-  text-align: center;
-  text-transform: uppercase;
-  color: #eda63d;
-}
+  .upper-div h2 {
+    margin-top: -35px;
+    font-family: "Fira Sans Four", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #eda63d;
+  }
 
-.upper-div p {
-width: 510px;
-}
+  .upper-div p {
+    width: 510px;
+  }
 
-.upper-div img {
-width: 510px;
-}
+  .upper-div img {
+    width: 510px;
+  }
 
 }
 
 
 @media only screen and (min-width: 569px) and (max-width: 660px) {
 
-.sidebar-left-text {
-font-size: 16px;
-}
+  .sidebar-left-text {
+    font-size: 16px;
+  }
 
-.sidebar-right-text {
-font-size: 16px;
-margin-right: -40px;
-}
+  .sidebar-right-text {
+    font-size: 16px;
+    margin-right: -40px;
+  }
 
-.upper-div h1 {
-  font-family: "Roboto", sans-serif;
-  font-size: 60px;
-  font-weight: 500;
-  text-align: center;
-  text-transform: none;
-  color: #000000;
-}
+  .upper-div h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: none;
+    color: #000000;
+  }
 
-.upper-div h2 {
-  margin-top: -35px;
-  font-family: "Fira Sans Four", sans-serif;
-  font-size: 11px;
-  font-weight: 300;
-  text-align: center;
-  text-transform: uppercase;
-  color: #eda63d;
-}
+  .upper-div h2 {
+    margin-top: -35px;
+    font-family: "Fira Sans Four", sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #eda63d;
+  }
 
-.upper-div p {
-width: 470px;
-font-size: 15px;
-}
+  .upper-div p {
+    width: 440px;
+    font-size: 15px;
+  }
 
-.upper-div img {
-width: 470px;
-}
+  .upper-div img {
+    width: 470px;
+  }
 
 }
 
 @media only screen and (min-width: 489px) and (max-width: 570px) {
 
-.sidebar-left-text {
-font-size: 14px;
-}
+  .sidebar-left-text {
+    font-size: 14px;
+  }
 
-.sidebar-right-text {
-font-size: 14px;
-margin-right: -25px;
-}
+  .sidebar-right-text {
+    font-size: 14px;
+    margin-right: -25px;
+  }
 
-.upper-div h1 {
-  font-family: "Roboto", sans-serif;
-  font-size: 54px;
-  font-weight: 500;
-  text-align: center;
-  text-transform: none;
-  color: #000000;
-}
+  .upper-div h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 54px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: none;
+    color: #000000;
+  }
 
-.upper-div h2 {
-  margin-top: -35px;
-  font-family: "Fira Sans Four", sans-serif;
-  font-size: 11px;
-  font-weight: 300;
-  text-align: center;
-  text-transform: uppercase;
-  color: #eda63d;
-}
+  .upper-div h2 {
+    margin-top: -35px;
+    font-family: "Fira Sans Four", sans-serif;
+    font-size: 11px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    color: #eda63d;
+  }
 
-.upper-div p {
-width: 350px;
-font-size: 14px;
-}
+  .upper-div p {
+    width: 350px;
+    font-size: 14px;
+  }
 
-.upper-div a {
-font-size: 13px;
-}
+  .upper-div a {
+    font-size: 13px;
+  }
 
-.upper-div img {
-width: 360px;
-}
+  .upper-div img {
+    width: 360px;
+  }
 
-.lower-div h1 {
-font-size: 25px;
-}
+  .lower-div h1 {
+    font-size: 25px;
+  }
 
-.lower-div p {
-width: 350px;
-font-size: 14px;
-}
+  .lower-div p {
+    width: 350px;
+    font-size: 14px;
+  }
 
-footer {
-font-size: 13px;
-}
+  footer {
+    font-size: 13px;
+  }
 
 }
 
 @media only screen and (min-width: 320px) and (max-width: 490px) {
 
-.sidebar-left-text {
-font-size: 12px;
-}
+  .sidebar-left-text {
+    font-size: 12px;
+  }
 
-.sidebar-right-text {
-font-size: 12px;
-margin-right: -25px;
-}
+  .sidebar-right-text {
+    font-size: 12px;
+    margin-right: -25px;
+  }
 
-.upper-div h1 {
-font-size: 47px;
-}
+  .upper-div h1 {
+    font-size: 47px;
+  }
 
-.upper-div h2 {
-margin-top: -20px;
-}
+  .upper-div h2 {
+    margin-top: -20px;
+  }
 
-.upper-div p {
-width: 270px;
-font-size: 13px;
-}
+  .upper-div p {
+    width: 270px;
+    font-size: 13px;
+  }
 
-.upper-div a {
-font-size: 12px;
-}
+  .upper-div a {
+    font-size: 12px;
+  }
 
-.upper-div img {
-width: 280px;
-}
+  .upper-div img {
+    width: 280px;
+  }
 
-.lower-div h1 {
-font-size: 23px;
-}
+  .lower-div h1 {
+    font-size: 23px;
+  }
 
-.lower-div p {
-width: 260px;
-font-size: 13px;
-}
+  .lower-div p {
+    width: 260px;
+    font-size: 13px;
+  }
 
-footer {
-font-size: 10px;
-}
+  footer {
+    font-size: 10px;
+  }
 }
