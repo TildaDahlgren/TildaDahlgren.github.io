@@ -15,7 +15,6 @@ a:hover {
   cursor: pointer;
 }
 
-
 .sidebar-left {
   display: inline-block;
   opacity: 1;
@@ -192,7 +191,6 @@ to   { opacity: 1; }
   position: relative;
   margin: 0 auto;
   margin-top: 65px;
-  margin-bottom: 150px;
   text-align: center;
 }
 
@@ -214,6 +212,11 @@ to   { opacity: 1; }
   text-align: center;
 }
 
+.lower-div img {
+  width: 370px;
+  margin-top: 85px;
+  border: 35px solid #e0e0e0;
+}
 
 footer {
   right: 0;
@@ -228,7 +231,6 @@ footer {
   text-transform: uppercase;
   color: #7b746e;
 }
-
 
 
 
