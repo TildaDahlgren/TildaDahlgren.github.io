@@ -140,11 +140,11 @@ to   { opacity: 1; }
 }
 
 .upper-div h1 {
-  font-family:  "Roboto", sans-serif;
+  font-family: "Rukou", sans-serif;
   font-size: 80px;
   font-weight: 100;
   text-align: center;
-  text-transform: none;
+  text-transform: uppercase;
   color: #000000;
 }
 
@@ -244,11 +244,11 @@ margin-right: -40px;
 }
 
 .upper-div h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Rukou", sans-serif;
   font-size: 80px;
-  font-weight: 500;
+  font-weight: 100;
   text-align: center;
-  text-transform: none;
+  text-transform: uppercase;
   color: #000000;
 }
 
@@ -277,11 +277,11 @@ margin-right: -50px;
 }
 
 .upper-div h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Rukou", sans-serif;
   font-size: 75px;
-  font-weight: 500;
+  font-weight: 100;
   text-align: center;
-  text-transform: none;
+  text-transform: uppercase;
   color: #000000;
 }
 
@@ -318,11 +318,11 @@ margin-right: -40px;
 }
 
 .upper-div h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Rukou", sans-serif;
   font-size: 60px;
-  font-weight: 500;
+  font-weight: 100;
   text-align: center;
-  text-transform: none;
+  text-transform: uppercase;
   color: #000000;
 }
 
@@ -359,11 +359,11 @@ margin-right: -25px;
 }
 
 .upper-div h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Rukou", sans-serif;
   font-size: 54px;
-  font-weight: 500;
+  font-weight: 100;
   text-align: center;
-  text-transform: none;
+  text-transform: uppercase;
   color: #000000;
 }
 
@@ -421,11 +421,12 @@ font-size: 47px;
 }
 
 .upper-div h2 {
-margin-top: -20px;
+  font-size: 9px;
+  margin-top: -30px;
 }
 
 .upper-div p {
-width: 270px;
+width: 200px;
 font-size: 13px;
 }
 
@@ -434,7 +435,7 @@ font-size: 12px;
 }
 
 .upper-div img {
-width: 280px;
+width: 230px;
 }
 
 .lower-div h1 {
@@ -442,7 +443,7 @@ font-size: 23px;
 }
 
 .lower-div p {
-width: 260px;
+width: 200px;
 font-size: 13px;
 }
 
