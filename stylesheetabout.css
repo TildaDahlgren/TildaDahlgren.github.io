@@ -171,8 +171,6 @@ to   { opacity: 1; }
   margin-bottom: 80px;
   padding-top: 1px;
   text-align: center;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
 }
 
 .whoistilda p {
@@ -288,7 +286,7 @@ to   { opacity: 1; }
 
 .lower-div h1 {
   font-family: "Fira Sans Four", sans-serif;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 300;
   text-transform: uppercase;
 }
@@ -327,7 +325,7 @@ footer {
 
 
 
-@media only screen and (min-width: 990px) and (max-width: 1020px) {
+@media only screen and (min-width: 991px) and (max-width: 1020px) {
 
   .upper-div h1 {
     font-family: "Rukou", sans-serif;
@@ -356,7 +354,7 @@ footer {
   }
 
   #study h1 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   #study p {
@@ -368,7 +366,7 @@ footer {
   }
 
   #model h1 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   #model p {
@@ -386,7 +384,7 @@ footer {
 }
 
 
-@media only screen and (min-width: 880px) and (max-width: 989px) {
+@media only screen and (min-width: 880px) and (max-width: 990px) {
 
   .sidebar-left-text {
     font-size: 23px;
@@ -421,6 +419,22 @@ footer {
   #model {
     margin-left: 0px;
     margin-top: 30px;
+  }
+
+  #study h1 {
+    font-size: 21px;
+  }
+
+  #study p {
+    font-size: 16px;
+  }
+
+  #model h1 {
+    font-size: 21px;
+  }
+
+  #model p {
+    font-size: 16px;
   }
 
   .lower-div img {
@@ -477,6 +491,22 @@ footer {
     margin-left: 0px;
   }
 
+  #study h1 {
+    font-size: 21px;
+  }
+
+  #study p {
+    font-size: 16px;
+  }
+
+  #model h1 {
+    font-size: 21px;
+  }
+
+  #model p {
+    font-size: 16px;
+  }
+
   .lower-div img {
     width: 80%;
   }
@@ -519,7 +549,6 @@ footer {
     width: 450px;
     margin-top: 60px;
     margin-bottom: 45px;
-    border: none;
   }
 
   .whoistilda p {
@@ -579,7 +608,6 @@ footer {
   .whoistilda {
     width: 450px;
     margin-bottom: 45px;
-    border: none;
   }
 
   .upper-div h1 {
@@ -630,7 +658,6 @@ footer {
   }
 
   #study h1 {
-    font-family: "Abel", serif;
     font-size: 16px;
   }
 
@@ -646,7 +673,6 @@ footer {
   }
 
   #model h1 {
-    font-family: "Abel", serif;
     font-size: 16px;
   }
 
@@ -725,7 +751,6 @@ footer {
     width: 300px;
     margin-top: 70px;
     margin-bottom: 60px;
-    border: none;
   }
 
   .whoistilda p {
@@ -735,33 +760,33 @@ footer {
   }
 
   #study {
-    width: 230px;
-    height: 200px;
+    width: 220px;
+    height: 190px;
   }
 
   #study h1 {
-    font-family: "Abel", serif;
-    font-size: 14px;
+    font-size: 13px;
   }
 
   #study p {
-    font-size: 12px;
+    width: 220px;
+    font-size: 11px;
   }
 
   #model {
-    width: 230px;
-    height: 210px;
+    width: 220px;
+    height: 190px;
     margin-top: 30px;
     margin-left: 0px;
   }
 
   #model h1 {
-    font-family: "Abel", serif;
-    font-size: 14px;
+    font-size: 13px;
   }
 
   #model p {
-    font-size: 12px;
+    width: 220px;
+    font-size: 11px;
   }
 
   .lower-div {
