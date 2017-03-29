@@ -163,24 +163,25 @@ to   { opacity: 1; }
 }
 
 .whoistilda {
-  width: 650px;
+  width: 750px;
   height: 110px;
   position: relative;
   margin: 0 auto;
   margin-top: 150px;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
   padding-top: 1px;
   text-align: center;
 }
 
 .whoistilda p {
-  padding: 15px;
-  font-family: "Abel", sans-serif;
+  font-family: "Fira Sans Four", sans-serif;
   font-size: 15px;
   font-weight: 100;
   color: #000000;
   text-align: center;
   text-transform: uppercase;
+  line-height: 150%;
+  word-spacing: 1.7px;
 }
 
 #open {
@@ -455,6 +456,10 @@ footer {
     margin-right: -40px;
   }
 
+  .upper-div {
+    margin-top: 100px;
+  }
+
   .upper-div h1 {
     font-family: "Rukou", sans-serif;
     font-style: normal;
@@ -477,34 +482,53 @@ footer {
   }
 
   .whoistilda {
-    width: 500px;
+    width: 520px;
+    margin-top: 100px;
+    margin-bottom: 70px;
   }
 
   .whoistilda  p {
-    width: 480px;
-    font-size: 14px;
+    width: 500px;
+    font-size: 11px;
     text-align: center;
   }
 
+  .lower-div {
+    margin-top: 75px;
+  }
+
+  .box {
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+  }
+
+#study {
+  width: 380px;
+  height: 230px;
+}
+
+  #study h1 {
+    font-size: 17px;
+  }
+
+  #study p {
+    font-size: 15px;
+  }
+
   #model {
+    width: 380px;
+    height: 230px;
     margin-top: 30px;
     margin-left: 0px;
   }
 
-  #study h1 {
-    font-size: 21px;
-  }
-
-  #study p {
-    font-size: 16px;
-  }
-
   #model h1 {
-    font-size: 21px;
+    font-size: 17px;
   }
 
   #model p {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .lower-div img {
@@ -522,6 +546,10 @@ footer {
   .sidebar-right-text {
     font-size: 16px;
     margin-right: -40px;
+  }
+
+  .upper-div {
+    margin-top: 100px;
   }
 
   .upper-div h1 {
@@ -548,44 +576,50 @@ footer {
   .whoistilda {
     width: 450px;
     margin-top: 60px;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
   }
 
   .whoistilda p {
     width: 430px;
-    font-size: 12px
+    font-size: 10px
+  }
+
+  .box {
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
   }
 
   .lower-div {
-    margin-top: 70px;
+    margin-top: 65px;
   }
 
   #study {
-    width: 360px;
-    height: 200px;
+    width: 330px;
+    height: 180px;
   }
 
   #study h1 {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   #study p {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   #model {
-    width: 350px;
-    height: 230px;
+    width: 330px;
+    height: 180px;
     margin-top: 30px;
     margin-left: 0px;
   }
 
   #model h1 {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   #model p {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .lower-div img {
@@ -605,9 +639,8 @@ footer {
     margin-right: -40px;
   }
 
-  .whoistilda {
-    width: 450px;
-    margin-bottom: 45px;
+  .upper-div {
+    margin-top: -100px;
   }
 
   .upper-div h1 {
@@ -633,13 +666,14 @@ footer {
   }
 
   .whoistilda {
+    width: 420px;
     margin-top: 60px;
     margin-bottom: 20px;
   }
 
   .whoistilda p {
-    width: 430px;
-    font-size: 10px
+    width: 420px;
+    font-size: 9px
   }
 
   .lower-div {
@@ -647,9 +681,9 @@ footer {
   }
 
   .box {
-    height: 30px;
-    font-size: 13px;
-    line-height: 30px;
+    height: 20px;
+    font-size: 10px;
+    line-height: 20px;
   }
 
   #study {
@@ -698,7 +732,7 @@ footer {
   }
 
   .upper-div {
-    margin-top: 90px;
+    margin-top: -150px;
   }
 
   .upper-div h1 {
@@ -706,17 +740,17 @@ footer {
     font-family: "Rukou", sans-serif;
     font-style: normal;
     font-weight: 200;
-    font-size: 45px;
+    font-size: 37px;
     text-align: center;
     text-transform: none;
     color: #000000;
   }
 
   .upper-div h2 {
-    margin-top: -40px;
-    margin-left: -100px;
+    margin-top: -35px;
+    margin-left: -70px;
     font-family: "Fira Sans Four", sans-serif;
-    font-size: 8px;
+    font-size: 6px;
     font-weight: 300;
     text-align: center;
     text-transform: uppercase;
@@ -734,10 +768,6 @@ footer {
     font-weight: 400;
   }
 
-  .upper-div img {
-    width: 250px;
-  }
-
   .lower-div h1 {
     font-size: 30px;
   }
@@ -748,45 +778,47 @@ footer {
   }
 
   .whoistilda {
-    width: 300px;
+    width: 230px;
     margin-top: 70px;
     margin-bottom: 60px;
   }
 
   .whoistilda p {
-    width: 270px;
-    font-size: 11px;
+    width: 230px;
+    font-size: 9px;
     font-weight: 300;
   }
 
   #study {
-    width: 220px;
-    height: 190px;
+    width: 170px;
+    height: 170px;
+    padding: 15px;
   }
 
   #study h1 {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   #study p {
-    width: 220px;
-    font-size: 11px;
+    width: 170px;
+    font-size: 9px;
   }
 
   #model {
-    width: 220px;
-    height: 190px;
-    margin-top: 30px;
+    width: 170px;
+    height: 170px;
+    margin-top: 25px;
     margin-left: 0px;
+    padding: 15px;
   }
 
   #model h1 {
-    font-size: 13px;
+    font-size: 11px;
   }
 
   #model p {
-    width: 220px;
-    font-size: 11px;
+    width: 170px;
+    font-size: 9px;
   }
 
   .lower-div {
@@ -798,39 +830,14 @@ footer {
     margin-top: 40px;
   }
 
-  #open {
-    position: relative;
-    display: inline-block;
-    margin-top: 25px;
-    text-align: left;
-    vertical-align: top;
-  }
-
   #download {
-    position: relative;
-    display: inline-block;
-    margin-top: 25px;
-    margin-left: 25px;
-    text-align: left;
-    vertical-align: top;
+    margin-left: 10px;
   }
 
   .box {
-    position: relative;
-    display: inline-block;
     height: 20px;
-    padding: 0 15px;
-    font-family: "Fira Sans Four", sans-serif;
-    font-size: 12px;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
+    font-size: 10px;
     line-height: 20px;
-    color: #ffae2d;
-    cursor: pointer;
-    border: 1px solid #000000;
-    -webkit-transition:0.5s;
-    transition: 0.5s;
   }
 
   footer {
