@@ -802,6 +802,7 @@ footer {
   #study p {
     width: 170px;
     font-size: 9px;
+    font-weight: 500;
   }
 
   #model {
@@ -819,6 +820,7 @@ footer {
   #model p {
     width: 170px;
     font-size: 9px;
+    font-weight: 500;
   }
 
   .lower-div {
