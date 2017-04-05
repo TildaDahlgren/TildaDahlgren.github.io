@@ -133,7 +133,7 @@ to   { opacity: 1; }
   width: 100%;
   position: relative;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 70px;
   text-align: center;
 }
 
@@ -163,60 +163,62 @@ to   { opacity: 1; }
 }
 
 .whoistilda {
-  width: 750px;
+  width: 450px;
   height: 110px;
   position: relative;
+  display: inline-block;
   margin: 0 auto;
-  margin-top: 150px;
-  margin-bottom: 120px;
-  padding-top: 1px;
-  text-align: center;
+  margin-top: 120px;
+  margin-bottom: 70px;
 }
 
 .whoistilda p {
   font-family: "Fira Sans Four", sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 100;
   color: #000000;
-  text-align: center;
-  text-transform: uppercase;
+  text-align: left;
+  text-transform: none;
   line-height: 150%;
   word-spacing: 1.7px;
 }
 
-#open {
+.buttons {
   position: relative;
   display: inline-block;
-  margin-top: 25px;
-  text-align: left;
   vertical-align: top;
+  margin-top: 160px;
+  margin-left: 70px;
+}
+
+#open {
+  position: relative;
+  text-align: center;
 }
 
 #download {
   position: relative;
-  display: inline-block;
   margin-top: 25px;
-  margin-left: 35px;
-  text-align: left;
-  vertical-align: top;
+  text-align: center;
 }
 
 .box {
   position: relative;
   display: inline-block;
-  height: 40px;
+  height: 30px;
   padding: 0 20px;
   font-family: "Fira Sans Four", sans-serif;
-  font-size: 15px;
+  font-size: 12px;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  line-height: 40px;
+  line-height: 30px;
   color: #ffae2d;
   cursor: pointer;
   border: 1px solid #000000;
   -webkit-transition:0.5s;
   transition: 0.5s;
+  border-radius: 20px;
 }
 
 .box:hover {
@@ -241,12 +243,14 @@ to   { opacity: 1; }
 .box::before {
   border-bottom: 1px solid #000000;
   border-left: 1px solid #000000;
+  border-radius: 20px;
   -webkit-transform-origin: 0 100%;
 }
 
 .box::after {
   border-top: 1px solid #000000;
   border-right: 1px solid #000000;
+  border-radius: 20px;
   -webkit-transform-origin: 100% 0%;
 }
 
@@ -269,7 +273,7 @@ to   { opacity: 1; }
   padding: 30px;
   text-align: left;
   vertical-align: top;
-  background-color: #e5e5e5;
+  background-color: #f2f2f2;
   border-radius: 10px;
 }
 
@@ -281,7 +285,7 @@ to   { opacity: 1; }
   padding: 30px;
   text-align: left;
   vertical-align: top;
-  background-color: #e5e5e5;
+  background-color: #f2f2f2;
   border-radius: 10px;
 }
 
@@ -457,7 +461,7 @@ footer {
   }
 
   .upper-div {
-    margin-top: 100px;
+    margin-top: 40px;
   }
 
   .upper-div h1 {
@@ -482,31 +486,36 @@ footer {
   }
 
   .whoistilda {
-    width: 520px;
-    margin-top: 100px;
+    margin-top: 70px;
     margin-bottom: 70px;
+    margin-left: 30px;
   }
 
   .whoistilda  p {
-    width: 500px;
-    font-size: 11px;
-    text-align: center;
+    width: 360px;
+    font-size: 12px;
+    text-align: left;
   }
 
   .lower-div {
     margin-top: 75px;
   }
 
-  .box {
-    height: 30px;
-    font-size: 12px;
-    line-height: 30px;
+  .buttons {
+    margin-top: 90px;
+    margin-left: -70px;
   }
 
-#study {
-  width: 380px;
-  height: 230px;
-}
+  .box {
+    height: 25px;
+    font-size: 11px;
+    line-height: 25px;
+  }
+
+  #study {
+    width: 380px;
+    height: 230px;
+  }
 
   #study h1 {
     font-size: 17px;
@@ -537,7 +546,7 @@ footer {
 }
 
 
-@media only screen and (min-width: 570px) and (max-width: 664px) {
+@media only screen and (min-width: 570px) and (max-width: 665px) {
 
   .sidebar-left-text {
     font-size: 16px;
@@ -549,7 +558,7 @@ footer {
   }
 
   .upper-div {
-    margin-top: 100px;
+    margin-top: -10px;
   }
 
   .upper-div h1 {
@@ -574,20 +583,24 @@ footer {
   }
 
   .whoistilda {
-    width: 450px;
     margin-top: 60px;
     margin-bottom: 30px;
   }
 
   .whoistilda p {
-    width: 430px;
-    font-size: 10px
+    width: 240px;
+    font-size: 11px
+  }
+
+  .buttons {
+    margin-top: 80px;
+    margin-left: -180px;
   }
 
   .box {
-    height: 30px;
-    font-size: 12px;
-    line-height: 30px;
+    height: 20px;
+    font-size: 10px;
+    line-height: 20px;
   }
 
   .lower-div {
@@ -640,7 +653,7 @@ footer {
   }
 
   .upper-div {
-    margin-top: -100px;
+    margin-top: -150px;
   }
 
   .upper-div h1 {
@@ -666,24 +679,28 @@ footer {
   }
 
   .whoistilda {
-    width: 420px;
     margin-top: 60px;
     margin-bottom: 20px;
   }
 
   .whoistilda p {
-    width: 420px;
-    font-size: 9px
+    width: 240px;
+    font-size: 11px
+  }
+
+  .buttons {
+    margin-top: 80px;
+    margin-left: -177px;
+  }
+
+  .box {
+    height: 15px;
+    font-size: 8px;
+    line-height: 15px;
   }
 
   .lower-div {
     margin-top: 70px;
-  }
-
-  .box {
-    height: 20px;
-    font-size: 10px;
-    line-height: 20px;
   }
 
   #study {
@@ -768,6 +785,40 @@ footer {
     font-weight: 400;
   }
 
+  .whoistilda {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    text-align: center;
+  }
+
+  .whoistilda p {
+    width: 200px;
+    font-size: 9px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .buttons {
+    margin-top: -30px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .box {
+    height: 15px;
+    font-size: 8px;
+    line-height: 15px;
+  }
+
+  #download {
+    margin-top: 12px;
+  }
+
+  .lower-div {
+    width: 80%;
+  }
+
   .lower-div h1 {
     font-size: 30px;
   }
@@ -775,18 +826,6 @@ footer {
   .lower-div p {
     width: 250px;
     font-size: 12px;
-  }
-
-  .whoistilda {
-    width: 230px;
-    margin-top: 70px;
-    margin-bottom: 60px;
-  }
-
-  .whoistilda p {
-    width: 230px;
-    font-size: 9px;
-    font-weight: 300;
   }
 
   #study {
@@ -808,7 +847,7 @@ footer {
   #model {
     width: 170px;
     height: 170px;
-    margin-top: 25px;
+    margin-top: 20px;
     margin-left: 0px;
     padding: 15px;
   }
@@ -830,16 +869,6 @@ footer {
   .lower-div img {
     width: 80%;
     margin-top: 40px;
-  }
-
-  #download {
-    margin-left: 10px;
-  }
-
-  .box {
-    height: 20px;
-    font-size: 10px;
-    line-height: 20px;
   }
 
   footer {
