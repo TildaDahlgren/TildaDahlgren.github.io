@@ -1,9 +1,9 @@
 html, body {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   overflow-x: hidden;
 }
 
@@ -14,8 +14,19 @@ a:hover {
   cursor: pointer;
 }
 
+.background-div {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("83.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
 .sidebar-left {
-  display: inline-block;
   opacity: 1;
   transition: opacity 1600ms;
   z-index: 1000;
@@ -26,7 +37,6 @@ a:hover {
 }
 
 .sidebar-right {
-  display: inline-block;
   opacity: 1;
   transition: opacity 1600ms;
   z-index: 1000;
@@ -38,20 +48,16 @@ a:hover {
 
 .sidebar-email {
   position: fixed;
-  z-index: 1002;
   height: 100vh;
-  padding-right: 0px;
   text-decoration: none;
+  z-index: 1002;
 }
 
 .sidebar-left-text {
-  height: 1.5em;
   position: fixed;
   display: inline-block;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  margin-left: 28px;
+  top: 40vh;
+  left: -10px;
   padding: 0;
   font-family: "Fira Sans Four", sans-serif;
   font-size: 23px;
@@ -59,8 +65,6 @@ a:hover {
   color: #000000;
   z-index: 1000;
 
-  -webkit-transform-origin: 0 50%;
-   -moz-transform-origin: 0 50%;
    -webkit-transform: rotate(-90deg) translate(-50%, 50%);
    -moz-transform: rotate(-90deg) translate(-50%, 50%);
 
@@ -72,14 +76,9 @@ a:hover {
 }
 
 .sidebar-right-text {
-  height: 1.5em;
   position: fixed;
-  display: inline-block;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  margin-right: -70px;
+  top: 57vh;
+  right: -25px;
   padding: 0;
   font-family: "Fira Sans Four", sans-serif;
   font-size: 23px;
@@ -87,8 +86,6 @@ a:hover {
   color: #000000;
   z-index: 1000;
 
-  -webkit-transform-origin: 0 50%;
-  -moz-transform-origin: 0 50%;
   -webkit-transform: rotate(90deg) translate(-50%, 50%);
   -moz-transform: rotate(90deg) translate(-50%, 50%);
 
@@ -129,163 +126,188 @@ to   { opacity: 1; }
 
 }
 
-.upper-div {
+
+
+
+.tilda {
   width: 100%;
   position: relative;
+  display: inline-block;
   margin: 0 auto;
-  margin-top: 70px;
+  top: 47px;
+  padding: 0;
   text-align: center;
+  opacity: 0.7;
 }
 
-.upper-div h1 {
-  font-family: "Rukou", sans-serif;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 95px;
-  text-align: center;
-  text-transform: none;
-  color: #000000;
-}
-
-.upper-div h2 {
-  margin-top: -80px;
-  margin-left: -190px;
-  font-family: "Fira Sans Four", sans-serif;
-  font-size: 14px;
-  font-weight: 300;
-  text-align: center;
+.tilda h1 {
+  position: relative;
+  margin-top: 0;
+  margin-right: 14%;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 70px;
+  font-weight: 100;
+  text-align: right;
   text-transform: uppercase;
-  color: #eda63d;
-}
-
-.upper-div h2 span {
-  font-size: 9px;
+  text-decoration: underline;
+  color: #3e3734;
 }
 
 .whoistilda {
-  width: 450px;
-  height: 110px;
+  width: 80%;
   position: relative;
   display: inline-block;
   margin: 0 auto;
-  margin-top: 80px;
-  margin-bottom: 70px;
+  margin-top: 1px;
+  top: 37px;
+  padding: 0;
+  text-align: right;
 }
 
-.whoistilda p {
-  font-family: "Fira Sans Four", sans-serif;
-  font-size: 18px;
+#circle {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  display: inline-block;
+  background-color: #3e3734;
+  text-align: center;
+  border-radius: 300px;
+  opacity: 0.6;
+}
+
+#circletext {
+  width: 300px;
+  position: relative;
+  display: inline-block;
+  top: -85px;
+  margin-left: -353px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
   font-weight: 100;
-  color: #898989;
-  text-align: left;
-  text-transform: none;
-  line-height: 150%;
-  word-spacing: 1.7px;
-}
-
-.buttons {
-  position: relative;
-  display: inline-block;
-  vertical-align: top;
-  margin-top: 130px;
-  margin-left: 70px;
-}
-
-#open {
-  position: relative;
+  color: #eaeaea;
   text-align: center;
-}
-
-#download {
-  position: relative;
-  margin-top: 25px;
-  text-align: center;
-}
-
-.box {
-  position: relative;
-  display: inline-block;
-  height: 30px;
-  padding: 0 20px;
-  font-family: "Fira Sans Four", sans-serif;
-  font-size: 12px;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  line-height: 30px;
-  color: #ffae2d;
-  cursor: pointer;
-  border: 1px solid #000000;
-  -webkit-transition:0.5s;
-  transition: 0.5s;
-  border-radius: 20px;
-}
-
-.box:hover {
-  border: 1px solid #ededed;
-  color: #ffae2d;
-  cursor: pointer;
-}
-
-.box::before, .box::after {
-  width: 100%;
-  height:100%;
-  z-index: 3;
-  content:'';
-  position: absolute;
-  top:0;
-  left:0;
-  box-sizing: border-box;
-  -webkit-transform: scale(0);
-  transition: 0.5s;
-}
-
-.box::before {
-  border-bottom: 1px solid #000000;
-  border-left: 1px solid #000000;
-  border-radius: 20px;
-  -webkit-transform-origin: 0 100%;
-}
-
-.box::after {
-  border-top: 1px solid #000000;
-  border-right: 1px solid #000000;
-  border-radius: 20px;
-  -webkit-transform-origin: 100% 0%;
-}
-
-.box:hover::after, .box:hover::before {
-  -webkit-transform: scale(1);
 }
 
 .lower-div {
   width: 100%;
   position: relative;
   margin: 0 auto;
-  margin-top: 110px;
+  margin-top: 140px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
+.CV {
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.cl-effect-18 {
+	position: relative;
+  display: inline-block;
+	z-index: 1;
+}
+
+.cl-effect-18 a {
+	padding: 0 5px;
+	color: #000000;
+	font-weight: 700;
+	-webkit-transition: color 0.3s;
+	-moz-transition: color 0.3s;
+	transition: color 0.3s;
+}
+
+nav a {
+  position: relative;
+	display: inline-block;
+	margin: 15px 145px;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+.cl-effect-18 a::before,
+.cl-effect-18 a::after {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 50%;
+	height: 2px;
+	margin-top: -1px;
+	background: #473d39;
+	content: '';
+	z-index: -1;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	pointer-events: none;
+}
+
+.cl-effect-18 a::before {
+	-webkit-transform: translateY(-20px);
+	-moz-transform: translateY(-20px);
+	transform: translateY(-20px);
+}
+
+.cl-effect-18 a::after {
+	-webkit-transform: translateY(20px);
+	-moz-transform: translateY(20px);
+	transform: translateY(20px);
+}
+
+.cl-effect-18 a,
+.cl-effect-18 a:hover,
+.cl-effect-18 a:focus,
+.cl-effect-18 a:visited {
+	color: #000000;
+}
+
+.cl-effect-18 a:hover::before,
+.cl-effect-18 a:hover::after,
+.cl-effect-18 a:focus::before,
+.cl-effect-18 a:focus::after {
+	opacity: 0.7;
+}
+
+.cl-effect-18 a:hover::before,
+.cl-effect-18 a:focus::before {
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.cl-effect-18 a:hover::after,
+.cl-effect-18 a:focus::after {
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+
 #study {
-  width: 430px;
+  width: 400px;
   height: 280px;
   display: inline-block;
   padding: 30px;
   text-align: left;
   vertical-align: top;
-  background-color: #f2f2f2;
+  background-color: #f2efea;
   border-radius: 10px;
 }
 
 #model {
-  width: 430px;
+  width: 400px;
   height: 280px;
   display: inline-block;
   margin-left: 35px;
   padding: 30px;
   text-align: left;
   vertical-align: top;
-  background-color: #f2f2f2;
+  background-color: #f2efea;
   border-radius: 10px;
 }
 
@@ -303,22 +325,15 @@ to   { opacity: 1; }
   font-weight: 100;
 }
 
-.lower-div a, .lower-div a:hover, .lower-div a:visited {
+#study a, #study a:hover, #study a:visited {
  color: #0000EE;
 }
-
-.lower-div img {
-  width: 60%;
-  margin-top: 70px;
-}
-
 
 footer {
   right: 0;
   bottom: 0;
   left: 0;
-  margin-top: 80px;
-  padding: 1rem;
+  padding: 2rem;
   font-family: "Fira Sans Four", sans-serif;
   font-size: 14px;
   font-weight: 100;
@@ -329,61 +344,67 @@ footer {
 
 
 
+@media only screen and (min-width: 991px) and (max-width: 1040px) {
 
-@media only screen and (min-width: 991px) and (max-width: 1020px) {
-
-  .upper-div h1 {
-    font-family: "Rukou", sans-serif;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 90px;
+  .tilda {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    top: 47px;
+    padding: 0;
     text-align: center;
-    text-transform: none;
-    color: #000000;
+    opacity: 0.7;
   }
 
-  .upper-div h2 {
-    margin-top: -80px;
-    margin-left: -190px;
-    font-family: "Fira Sans Four", sans-serif;
-    font-size: 13px;
-    font-weight: 300;
-    text-align: center;
+  .tilda h1 {
+    position: relative;
+    margin-top: 0;
+    margin-right: 8%;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 70px;
+    font-weight: 100;
+    text-align: right;
     text-transform: uppercase;
-    color: #eda63d;
+    text-decoration: underline;
+    color: #3e3734;
   }
 
+  .whoistilda {
+    width: 85%;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 1px;
+    top: 37px;
+    padding: 0;
+    text-align: right;
+  }
+
+  nav a {
+    margin: 15px 105px;
+    font-size: 22px;
+  }
 
   #study {
-    width: 350px;
-  }
-
-  #study h1 {
-    font-size: 20px;
-  }
-
-  #study p {
-    font-size: 16px;
+    width: 330px;
+    height: 320px;
+    background-color: #f2efea;
+    border-radius: 10px;
   }
 
   #model {
-    width: 350px;
+    width: 320px;
+    height: 320px;
   }
 
-  #model h1 {
-    font-size: 20px;
+  .lower-div h1 {
+    font-size: 22px;
   }
 
-  #model p {
+  .lower-div p {
+    margin-top: -20px;
     font-size: 16px;
-  }
-
-  .lower-div {
-    margin-top: 87px;
-  }
-
-  .lower-div img {
-    width: 80%;
   }
 
 }
@@ -391,252 +412,219 @@ footer {
 
 @media only screen and (min-width: 880px) and (max-width: 990px) {
 
-  .sidebar-left-text {
-    font-size: 23px;
-  }
-
-  .sidebar-right-text {
-    font-size: 23px;
-    margin-right: -40px;
-  }
-
-  .upper-div h1 {
-    font-family: "Rukou", sans-serif;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 90px;
+  .tilda {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    top: 47px;
+    padding: 0;
     text-align: center;
-    text-transform: none;
-    color: #000000;
+    opacity: 0.7;
   }
 
-  .upper-div h2 {
-    margin-top: -80px;
-    margin-left: -190px;
-    font-family: "Fira Sans Four", sans-serif;
-    font-size: 13px;
-    font-weight: 300;
-    text-align: center;
+  .tilda h1 {
+    position: relative;
+    margin-top: 0;
+    margin-right: 8%;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 70px;
+    font-weight: 100;
+    text-align: right;
     text-transform: uppercase;
-    color: #eda63d;
-  }
-
-  #model {
-    margin-left: 0px;
-    margin-top: 30px;
-  }
-
-  #study h1 {
-    font-size: 21px;
-  }
-
-  #study p {
-    font-size: 16px;
-  }
-
-  #model h1 {
-    font-size: 21px;
-  }
-
-  #model p {
-    font-size: 16px;
-  }
-
-  .lower-div img {
-    width: 80%;
-  }
-
-}
-
-
-@media only screen and (min-width: 665px) and (max-width: 879px) {
-
-  .sidebar-left-text {
-    font-size: 19px;
-  }
-
-  .sidebar-right-text {
-    font-size: 19px;
-    margin-right: -40px;
-  }
-
-  .upper-div {
-    margin-top: 40px;
-  }
-
-  .upper-div h1 {
-    font-family: "Rukou", sans-serif;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 73px;
-    text-align: center;
-    text-transform: none;
-    color: #000000;
-  }
-
-  .upper-div h2 {
-    margin-top: -65px;
-    margin-left: -190px;
-    font-family: "Fira Sans Four", sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    text-align: center;
-    text-transform: uppercase;
-    color: #eda63d;
+    text-decoration: underline;
+    color: #3e3734;
   }
 
   .whoistilda {
-    margin-top: 70px;
-    margin-bottom: 70px;
-    margin-left: 30px;
+    width: 85%;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 1px;
+    top: 37px;
+    padding: 0;
+    text-align: right;
   }
 
-  .whoistilda  p {
-    width: 360px;
-    font-size: 12px;
-    text-align: left;
-  }
-
-  .lower-div {
-    margin-top: 75px;
-  }
-
-  .buttons {
-    margin-top: 90px;
-    margin-left: -70px;
-  }
-
-  .box {
-    height: 25px;
-    font-size: 11px;
-    line-height: 25px;
+  nav a {
+    margin: 15px 105px;
+    font-size: 20px;
   }
 
   #study {
-    width: 380px;
-    height: 230px;
-  }
-
-  #study h1 {
-    font-size: 17px;
-  }
-
-  #study p {
-    font-size: 15px;
+    width: 300px;
+    height: 300px;
+    background-color: #f2efea;
+    border-radius: 10px;
   }
 
   #model {
-    width: 380px;
-    height: 230px;
-    margin-top: 30px;
-    margin-left: 0px;
+    width: 300px;
+    height: 300px;
   }
 
-  #model h1 {
-    font-size: 17px;
+  .lower-div h1 {
+    margin-top: 10px;
+    font-size: 21px;
   }
 
-  #model p {
+  .lower-div p {
+    margin-top: -20px;
     font-size: 15px;
   }
 
-  .lower-div img {
-    width: 80%;
-  }
 }
 
+@media only screen and (min-width: 751px) and (max-width: 879px) {
 
-@media only screen and (min-width: 570px) and (max-width: 665px) {
-
-  .sidebar-left-text {
-    font-size: 16px;
+  .tilda {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    top: 47px;
+    padding: 0;
+    text-align: center;
+    opacity: 0.7;
   }
 
-  .sidebar-right-text {
-    font-size: 16px;
-    margin-right: -40px;
-  }
-
-  .upper-div {
-    margin-top: -10px;
-  }
-
-  .upper-div h1 {
-    font-family: "Rukou", sans-serif;
-    font-style: normal;
-    font-weight: 200;
+  .tilda h1 {
+    position: relative;
+    margin-top: 0;
+    margin-right: 0px;
+    font-family: "Fjalla One", sans-serif;
     font-size: 65px;
-    text-align: center;
-    text-transform: none;
-    color: #000000;
-  }
-
-  .upper-div h2 {
-    margin-top: -60px;
-    margin-left: -140px;
-    font-family: "Fira Sans Four", sans-serif;
-    font-size: 10px;
-    font-weight: 300;
+    font-weight: 100;
     text-align: center;
     text-transform: uppercase;
-    color: #eda63d;
+    text-decoration: underline;
+    color: #3e3734;
   }
 
   .whoistilda {
-    margin-top: 60px;
-    margin-bottom: 30px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 1px;
+    margin-left: -15px;
+    top: 37px;
+    padding: 0;
+    text-align: center;
   }
 
-  .whoistilda p {
-    width: 240px;
-    font-size: 11px
-  }
-
-  .buttons {
-    margin-top: 80px;
-    margin-left: -180px;
-  }
-
-  .box {
-    height: 20px;
-    font-size: 10px;
-    line-height: 20px;
-  }
-
-  .lower-div {
-    margin-top: 65px;
-  }
-
-  #study {
-    width: 330px;
-    height: 180px;
-  }
-
-  #study h1 {
+  nav a {
+    margin: 15px 85px;
     font-size: 15px;
   }
 
-  #study p {
-    font-size: 13px;
+  #study {
+    width: 250px;
+    height: 230px;
+    background-color: #f2efea;
+    border-radius: 10px;
   }
 
   #model {
-    width: 330px;
-    height: 180px;
+    width: 250px;
+    height: 230px;
+    margin-left: 23px;
+  }
+
+  .lower-div h1 {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .lower-div p {
+    margin-top: -15px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (min-width: 570px) and (max-width: 750px) {
+
+  .tilda {
+    margin-top: 35px;
+  }
+
+  .tilda h1 {
+    position: relative;
+    margin-top: 0;
+    margin-right: 0px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: #3e3734;
+  }
+
+  .whoistilda {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-left: -15px;
+    top: 60px;
+    padding: 0;
+    text-align: center;
+  }
+
+  #circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+  }
+
+  #circletext {
+    width: 260px;
+    top: -80px;
+    margin-left: -284px;
+    font-size: 15px;
+  }
+
+  .lower-div {
+    margin-top: 230px;
+    margin-bottom: 70px;
+  }
+
+  nav a {
+    margin: 15px 65px;
+    font-size: 15px;
+  }
+
+  #study {
+    width: 400px;
+    height: 160px;
+    background-color: #f2efea;
+    border-radius: 10px;
+  }
+
+  #model {
+    width: 400px;
+    height: 160px;
     margin-top: 30px;
     margin-left: 0px;
   }
 
-  #model h1 {
-    font-size: 15px;
+  .lower-div h1 {
+    margin-top: 10px;
+    font-size: 16px;
   }
 
-  #model p {
-    font-size: 13px;
+  .lower-div p {
+    margin-top: -15px;
+    font-size: 12px;
+    font-weight: 500;
   }
 
-  .lower-div img {
-    width: 80%;
+  footer {
+    font-size: 12px;
   }
 
 }
@@ -644,235 +632,199 @@ footer {
 @media only screen and (min-width: 490px) and (max-width: 569px) {
 
   .sidebar-left-text {
-    font-size: 13px;
+    font-size: 20px;
   }
 
   .sidebar-right-text {
-    font-size: 13px;
-    margin-right: -40px;
+    top: 53vh;
+    font-size: 20px;
   }
 
-  .upper-div {
-    margin-top: -150px;
+  .tilda {
+    margin-top: 15px;
   }
 
-  .upper-div h1 {
-    margin-top: 180px;
-    font-family: "Rukou", sans-serif;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 55px;
-    text-align: center;
-    text-transform: none;
-    color: #000000;
-  }
-
-  .upper-div h2 {
-    margin-top: -50px;
-    margin-left: -120px;
-    font-family: "Fira Sans Four", sans-serif;
-    font-size: 9px;
-    font-weight: 300;
+  .tilda h1 {
+    position: relative;
+    margin-top: 0;
+    margin-right: 0px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 60px;
+    font-weight: 100;
     text-align: center;
     text-transform: uppercase;
-    color: #eda63d;
+    text-decoration: underline;
+    color: #3e3734;
   }
 
   .whoistilda {
-    margin-top: 60px;
-    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-left: -15px;
+    top: 40px;
+    padding: 0;
+    text-align: center;
   }
 
-  .whoistilda p {
-    width: 240px;
-    font-size: 11px
+  #circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
   }
 
-  .buttons {
-    margin-top: 80px;
-    margin-left: -177px;
-  }
-
-  .box {
-    height: 15px;
-    font-size: 8px;
-    line-height: 15px;
+  #circletext {
+    width: 260px;
+    top: -80px;
+    margin-left: -284px;
+    font-size: 15px;
   }
 
   .lower-div {
-    margin-top: 70px;
+    margin-top: 220px;
+    margin-bottom: 70px;
+  }
+
+  nav a {
+    margin: 15px 45px;
+    font-size: 13px;
   }
 
   #study {
-    width: 330px;
-    height: 200px;
-  }
-
-  #study h1 {
-    font-size: 16px;
-  }
-
-  #study p {
-    font-size: 14px;
+    width: 320px;
+    height: 180px;
+    background-color: #f2efea;
+    border-radius: 10px;
   }
 
   #model {
-    width: 330px;
-    height: 190px;
+    width: 320px;
+    height: 180px;
     margin-top: 30px;
     margin-left: 0px;
   }
 
-  #model h1 {
-    font-size: 16px;
+  .lower-div {
+    margin-bottom: 30px;
   }
 
-  #model p {
-    font-size: 14px;
+  .lower-div h1 {
+    margin-top: 10px;
+    font-size: 15px;
   }
 
-  .lower-div img {
-    width: 80%;
+  .lower-div p {
+    margin-top: -15px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  footer {
+    font-size: 12px;
   }
 }
 
 @media only screen and (min-width: 310px) and (max-width: 489px) {
 
-
   .sidebar-left-text {
-    font-size: 14px;
+    font-size: 17px;
   }
 
   .sidebar-right-text {
-    font-size: 14px;
-    margin-right: -40px;
+    top: 53vh;
+    font-size: 17px;
   }
 
-  .upper-div {
-    margin-top: -150px;
+  .tilda {
+    margin-top: 35px;
   }
 
-  .upper-div h1 {
-    margin-top: 180px;
-    font-family: "Rukou", sans-serif;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 37px;
-    text-align: center;
-    text-transform: none;
-    color: #000000;
-  }
-
-  .upper-div h2 {
-    margin-top: -35px;
-    margin-left: -70px;
-    font-family: "Fira Sans Four", sans-serif;
-    font-size: 6px;
-    font-weight: 500;
+  .tilda h1 {
+    position: relative;
+    margin-top: 0;
+    margin-right: 0px;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 40px;
+    font-weight: 100;
     text-align: center;
     text-transform: uppercase;
-    color: #eda63d;
-  }
-
-  .upper-div h2 span {
-    font-size: 6px;
-    font-weight: 400;
-  }
-
-  .upper-div p {
-    width: 250px;
-    font-size: 12px;
-    font-weight: 400;
+    text-decoration: underline;
+    color: #3e3734;
   }
 
   .whoistilda {
-    margin-top: 40px;
-    margin-bottom: 50px;
-    margin-left: 60px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-left: -5px;
+    top: 75px;
+    padding: 0;
     text-align: center;
   }
 
-  .whoistilda p {
+  #circle {
     width: 200px;
-    font-size: 9px;
-    font-weight: 300;
-    text-align: center;
+    height: 200px;
+    border-radius: 100px;
   }
 
-  .buttons {
-    margin-top: -30px;
-    margin-left: 0px;
-    text-align: center;
-  }
-
-  .box {
-    height: 15px;
-    font-size: 8px;
-    line-height: 15px;
-  }
-
-  #download {
-    margin-top: 12px;
+  #circletext {
+    width: 180px;
+    top: -55px;
+    margin-left: -194px;
+    font-size: 10px;
   }
 
   .lower-div {
-    width: 80%;
+    margin-top: 220px;
+    margin-bottom: 70px;
   }
 
-  .lower-div h1 {
-    font-size: 30px;
+  nav a {
+    margin: 15px 20px;
+    font-size: 11px;
   }
 
-  .lower-div p {
-    width: 250px;
-    font-size: 12px;
+  .cl-effect-18 a::before,
+  .cl-effect-18 a::after {
+  	height: 1px;
+  	margin-top: -1px;
   }
 
   #study {
-    width: 170px;
-    height: 170px;
-    padding: 15px;
-  }
-
-  #study h1 {
-    font-size: 11px;
-  }
-
-  #study p {
-    width: 170px;
-    font-size: 9px;
-    font-weight: 500;
+    width: 180px;
+    height: 260px;
+    background-color: #f2efea;
+    border-radius: 10px;
   }
 
   #model {
-    width: 170px;
-    height: 170px;
-    margin-top: 20px;
+    width: 180px;
+    height: 260px;
+    margin-top: 30px;
     margin-left: 0px;
-    padding: 15px;
-  }
-
-  #model h1 {
-    font-size: 11px;
-  }
-
-  #model p {
-    width: 170px;
-    font-size: 9px;
-    font-weight: 500;
   }
 
   .lower-div {
-    margin-top: 50px;
+    margin-bottom: 20px;
   }
 
-  .lower-div img {
-    width: 80%;
-    margin-top: 40px;
+  .lower-div h1 {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+
+  .lower-div p {
+    margin-top: -15px;
+    font-size: 11px;
+    font-weight: 500;
   }
 
   footer {
     font-size: 10px;
   }
-
 }
