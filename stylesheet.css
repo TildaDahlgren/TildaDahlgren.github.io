@@ -143,7 +143,7 @@ to   { opacity: 1; }
   width: 100%;
   position: relative;
   margin: 0 auto;
-  margin-top: 120px;
+  margin-top: 180px;
   padding: 0;
   text-align: center;
 }
@@ -157,108 +157,35 @@ to   { opacity: 1; }
   font-weight: 100;
   text-align: right;
   text-transform: uppercase;
-  text-decoration: underline;
-  color: #000000;
+  color: #262323;
 }
 
 .tilda h2 {
   position: relative;
-  margin-top: -67px;
+  margin-top: -39px;
   margin-right: 10%;
   font-family: "Fjalla One", sans-serif;
   font-size: 70px;
   font-weight: 100;
   text-align: left;
   text-transform: uppercase;
-  color: #000000;
+  color: #262323;
   -webkit-transform:rotate(-180deg);
   -moz-transform:rotate(-180deg);
   -o-transform:rotate(-180deg);
   transform:rotate(-180deg);
 }
 
-.upper-div {
-  width: 84%;
+.tilda p{
   position: relative;
+  margin-top: -55px;
+  margin-right: 10.3%;
+  font-family: "Fjalla one", sans-serif;
+  font-size: 27px;
+  font-weight: bold;
   text-align: right;
-  margin-top: -30px;
-}
-
-.contactbubble {
-  width: 300px;
-  position: relative;
-  display: inline-block;
-  text-align: center;
-}
-
-.contactbubble h1 {
-  font-family: "Fira Sans Four", sans-serif;
-  font-weight: 200;
-  font-size: 21px;
-  text-align: center;
   text-transform: uppercase;
-  color: #000000;
-}
-
-#sayhello {
-  width: 300px;
-  text-align: center;
-  margin-top: 35px;
-}
-
-.box {
-  position: relative;
-  display: inline-block;
-  height: 50px;
-  padding: 0 20px;
-  vertical-align: middle;
-  font-family: "Fira Sans Four", sans-serif;
-  font-size: 15px;
-  font-weight: 100;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  line-height: 50px;
-  color: #fcb258;
-  cursor: pointer;
-  border: 1px solid #000000;
-  -webkit-transition:0.5s;
-  transition: 0.5s;
-}
-
-.box:hover {
-  border: 1px solid #7b746e;
-  color: #fcb258;
-  cursor: pointer;
-}
-
-.box::before, .box::after {
-  width: 100%;
-  height:100%;
-  z-index: 3;
-  content:'';
-  position: absolute;
-  top:0;
-  left:0;
-  box-sizing: border-box;
-  -webkit-transform: scale(0);
-  transition: 0.5s;
-}
-
-.box::before {
-  border-bottom: 1px solid #000000;
-  border-left: 1px solid #000000;
-  -webkit-transform-origin: 0 100%;
-}
-
-.box::after {
-  border-top: 1px solid #000000;
-  border-right: 1px solid #000000;
-  -webkit-transform-origin: 100% 0%;
-}
-
-.box:hover::after, .box:hover::before {
-  -webkit-transform: scale(1);
+  letter-spacing: 0.4px;
 }
 
 .arrow {
@@ -286,68 +213,195 @@ to   { opacity: 1; }
 	80% { -webkit-transform: translateY(-10px); }
 }
 
-.skrollr-desktop body {
-  height: 100% !important;
-}
-
-#skrollr-body {
-  height: 100%;
-  overflow: visible;
-  position: relative;
-}
-
-.body-text {
+.lower-div {
   width: 100%;
-  height: 400px;
-  padding: 70px 0;
-  background-color: #fff;
-  font-size: 18px;
-  text-align: center;
-  color: #25373C;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
-.body-text h1 {
-  margin-bottom: 10px;
-  font-family: "Rukou", sans-serif;
-  font-size: 50px;
-  font-weight: 100;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.body-text p {
+.boomerang {
+  width: 100%;
   position: relative;
   display: inline-block;
-  padding: 20px;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-weight: 200;
-  text-align: center;
-  vertical-align: middle;
-  color: #45636B;
+  margin: 0 auto;
+  margin-left: 100px;
+  text-align: left;
 }
 
-#midtext {
+.boomerang img {
+  width: 700px;
+  display: inline-block;
+}
+
+.boomerang h1 {
+  position: relative;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: -90px;
+  font-family: "Lato", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+  border-bottom: 4px solid black;
+  letter-spacing: -2px;
+  vertical-align: top;
+  color: #000000;
+  z-index: 100;
+}
+
+.boomerang p {
   width: 350px;
   position: relative;
-  margin-left: 30px;
-  text-align: left;
-}
-
-#readmore, #readmore:hover, #readmore:visited {
-  width: 50px;
-  position: relative;
-  font-size: 16px;
-  text-align: left;
-  text-decoration: none;
-  color: #000000;
-}
-
-#bild img {
-  width: 300px;
-  position: relative;
+  display: inline-block;
+  margin-top: 160px;
+  margin-left: -325px;
+  font-family: "Fira Sans Four", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
   text-align: center;
+  vertical-align: top;
+  color: #000000;
+  z-index: 100;
 }
+
+.bubblelicious {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: right;
+}
+
+.bubblelicious img {
+  width: 700px;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.bubblelicious h1 {
+  position: relative;
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: -350px;
+  font-family: "Lato", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+  border-bottom: 4px solid black;
+  letter-spacing: -2px;
+  vertical-align: top;
+  color: #000000;
+  z-index: 100;
+}
+
+.bubblelicious p {
+  width: 350px;
+  position: relative;
+  display: inline-block;
+  margin-top: 160px;
+  margin-right: -90px;
+  font-family: "Fira Sans Four", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  vertical-align: top;
+  color: #000000;
+  z-index: 100;
+}
+
+.missingpeople {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-left: 100px;
+  text-align: left;
+}
+
+.missingpeople img {
+  width: 700px;
+  display: inline-block;
+}
+
+.missingpeople h1 {
+  position: relative;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: -110px;
+  font-family: "Lato", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+  border-bottom: 4px solid black;
+  letter-spacing: -2px;
+  vertical-align: top;
+  color: #000000;
+  z-index: 100;
+}
+
+.missingpeople p {
+  width: 350px;
+  position: relative;
+  display: inline-block;
+  margin-top: 160px;
+  margin-left: -365px;
+  font-family: "Fira Sans Four", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  vertical-align: top;
+  color: #000000;
+  z-index: 100;
+}
+
+.kittenscup {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: right;
+}
+
+.kittenscup img {
+  width: 700px;
+  display: inline-block;
+  margin-right: 100px;
+}
+
+.kittenscup h1 {
+  position: relative;
+  display: inline-block;
+  margin-top: 50px;
+  margin-right: -325px;
+  font-family: "Lato", sans-serif;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+  border-bottom: 4px solid black;
+  letter-spacing: -2px;
+  vertical-align: top;
+  color: #000000;
+  z-index: 100;
+}
+
+.kittenscup p {
+  width: 350px;
+  position: relative;
+  display: inline-block;
+  margin-top: 160px;
+  margin-right: -100px;
+  font-family: "Fira Sans Four", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  vertical-align: top;
+  color: #000000;
+  z-index: 100;
+}
+
 
 footer {
   margin: 0 auto;
@@ -359,765 +413,1444 @@ footer {
   text-align: center;
   text-transform: uppercase;
   color: #7b746e;
-  background-color: #ffffff;
 }
 
 
-@media only screen and (min-width: 989px) and (max-width: 1130px) {
-
-  .tilda {
-    margin-left: -67px;
-  }
-
-  .tilda h1 {
-    position: relative;
-    margin-top: 0;
-    margin-right: 30px;
-    font-family: "Fjalla One", sans-serif;
-    font-size: 54px;
-    font-weight: 100;
-    text-align: right;
-    text-transform: uppercase;
-    text-decoration: underline;
-    color: #000000;
-  }
-
-  .tilda h2 {
-    position: relative;
-    margin-top: -47px;
-    margin-right: 30px;
-    font-family: "Fjalla One", sans-serif;
-    font-size: 54px;
-    font-weight: 100;
-    text-align: left;
-    text-transform: uppercase;
-    color: #000000;
-    -webkit-transform:rotate(-180deg);
-    -moz-transform:rotate(-180deg);
-    -o-transform:rotate(-180deg);
-    transform:rotate(-180deg);
-  }
-
-  .upper-div {
-    margin-left: 50px;
-  }
-
-  .upper-div h1 {
-    font-size: 17px;
-  }
-
-  .upper-div p {
-    margin-top: -5px;
-    font-size: 12px;
-  }
-
-}
 
 
-@media only screen and (min-width: 879px) and (max-width: 990px) {
-
-  .tilda {
-    margin-left: -67px;
-  }
-
-  .tilda h1 {
-    position: relative;
-    margin-top: 0;
-    margin-right: 30px;
-    font-family: "Fjalla One", sans-serif;
-    font-size: 50px;
-    font-weight: 100;
-    text-align: right;
-    text-transform: uppercase;
-    text-decoration: underline;
-    color: #000000;
-  }
-
-  .tilda h2 {
-    position: relative;
-    margin-top: -47px;
-    margin-right: 30px;
-    font-family: "Fjalla One", sans-serif;
-    font-size: 50px;
-    font-weight: 100;
-    text-align: left;
-    text-transform: uppercase;
-    color: #000000;
-    -webkit-transform:rotate(-180deg);
-    -moz-transform:rotate(-180deg);
-    -o-transform:rotate(-180deg);
-    transform:rotate(-180deg);
-  }
-
-  .upper-div {
-    margin-left: 60px;
-  }
-
-  .upper-div h1 {
-    font-size: 17px;
-  }
-
-  .upper-div p {
-    margin-top: -5px;
-    font-size: 12px;
-  }
-
-  .box {
-    position: relative;
-    display: inline-block;
-    height: 40px;
-    padding: 0 20px;
-    vertical-align: middle;
-    font-family: "Fira Sans Four", sans-serif;
-    font-size: 13px;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    line-height: 40px;
-    color: #fcb258;
-    cursor: pointer;
-    border: 1px solid #000000;
-    -webkit-transition:0.5s;
-    transition: 0.5s;
-  }
-
-  .body-text {
-    width: 100%;
-    height: 400px;
-    padding: 70px 0;
-    background-color: #fff;
-    font-size: 18px;
-    text-align: center;
-    color: #25373C;
-  }
-
-  .body-text h1 {
-    margin-bottom: 10px;
-    font-family: "Rukou", sans-serif;
-    font-size: 50px;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  .body-text p {
-    position: relative;
-    display: inline-block;
-    padding: 20px;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    font-weight: 200;
-    text-align: center;
-    vertical-align: middle;
-    color: #45636B;
-  }
-
-  #midtext {
-    width: 250px;
-    position: relative;
-    margin-left: 10px;
-    text-align: left;
-  }
-
-  #readmore, #readmore:hover, #readmore:visited {
-    width: 50px;
-    position: relative;
-    font-size: 16px;
-    text-align: left;
-    text-decoration: none;
-    color: #000000;
-  }
-
-  #bild img {
-    width: 280px;
-    position: relative;
-    text-align: center;
-  }
-
-}
-
-@media only screen and (min-width: 779px) and (max-width: 880px) {
-
-  .tilda {
-    margin-left: -60px;
-  }
-
-  .tilda h1 {
-    position: relative;
-    margin-top: 0;
-    margin-right: 30px;
-    font-family: "Fjalla One", sans-serif;
-    font-size: 47px;
-    font-weight: 100;
-    text-align: right;
-    text-transform: uppercase;
-    text-decoration: underline;
-    color: #000000;
-  }
-
-  .tilda h2 {
-    position: relative;
-    margin-top: -45px;
-    margin-right: 30px;
-    font-family: "Fjalla One", sans-serif;
-    font-size: 47px;
-    font-weight: 100;
-    text-align: left;
-    text-transform: uppercase;
-    color: #000000;
-    -webkit-transform:rotate(-180deg);
-    -moz-transform:rotate(-180deg);
-    -o-transform:rotate(-180deg);
-    transform:rotate(-180deg);
-  }
-
-  .upper-div {
-    margin-left: 50px;
-  }
-
-  .upper-div h1 {
-    font-size: 17px;
-  }
-
-  .upper-div p {
-    margin-top: -5px;
-    font-size: 12px;
-  }
-
-  .box {
-    position: relative;
-    display: inline-block;
-    height: 40px;
-    padding: 0 20px;
-    vertical-align: middle;
-    font-family: "Fira Sans Four", sans-serif;
-    font-size: 13px;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    line-height: 40px;
-    color: #fcb258;
-    cursor: pointer;
-    border: 1px solid #000000;
-    -webkit-transition:0.5s;
-    transition: 0.5s;
-  }
-
-  .body-text {
-    width: 100%;
-    height: 370px;
-    padding: 70px 0;
-    background-color: #fff;
-    font-size: 18px;
-    text-align: center;
-    color: #25373C;
-  }
-
-  .body-text h1 {
-    margin-bottom: 10px;
-    font-family: "Rukou", sans-serif;
-    font-size: 45px;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  .body-text p {
-    position: relative;
-    display: inline-block;
-    padding: 20px;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    font-weight: 200;
-    text-align: center;
-    vertical-align: middle;
-    color: #45636B;
-  }
-
-  #midtext {
-    width: 250px;
-    position: relative;
-    margin-left: -10px;
-    text-align: left;
-  }
-
-  #readmore, #readmore:hover, #readmore:visited {
-    width: 50px;
-    position: relative;
-    font-size: 14px;
-    text-align: left;
-    text-decoration: none;
-    color: #000000;
-  }
-
-  #bild img {
-    width: 260px;
-    position: relative;
-    text-align: center;
-  }
-
-  footer {
-    margin: 0 auto;
-    bottom: 0;
-    padding: 30px;
-    font-family: "Fira Sans Four", sans-serif;
-    font-size: 13px;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
-    color: #7b746e;
-    background-color: #ffffff;
-  }
 
 
-}
-
-@media only screen and (min-width: 690px) and (max-width: 780px) {
+@media only screen and (min-width: 2351px) and (max-width: 2560px) {
 
   .sidebar-left-text {
-    font-size: 16px;
+    margin-left: 38px;
+    font-size: 35px;
   }
 
   .sidebar-right-text {
-    font-size: 16px;
-    margin-right: -40px;
+    margin-right: -80px;
+    font-size: 35px;
   }
 
   .tilda {
-    margin-left: -60px;
+    margin-top: 380px;
   }
 
   .tilda h1 {
     position: relative;
     margin-top: 0;
-    margin-right: 30px;
+    margin-right: 13%;
     font-family: "Fjalla One", sans-serif;
-    font-size: 37px;
+    font-size: 120px;
     font-weight: 100;
     text-align: right;
     text-transform: uppercase;
-    text-decoration: underline;
-    color: #000000;
+    color: #262323;
   }
 
   .tilda h2 {
     position: relative;
-    margin-top: -36px;
-    margin-right: 30px;
+    margin-top: -69px;
+    margin-right: 13%;
     font-family: "Fjalla One", sans-serif;
-    font-size: 37px;
+    font-size: 120px;
     font-weight: 100;
     text-align: left;
     text-transform: uppercase;
-    color: #000000;
+    color: #262323;
     -webkit-transform:rotate(-180deg);
     -moz-transform:rotate(-180deg);
     -o-transform:rotate(-180deg);
     transform:rotate(-180deg);
   }
 
-  .upper-div {
+  .tilda p{
+    position: relative;
+    margin-top: -95px;
+    margin-right: 13%;
+    font-family: "Fjalla one", sans-serif;
+    font-size: 47px;
+    font-weight: bold;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+
+  .boomerang {
+    margin-left: 300px;
+  }
+
+  .boomerang img {
+    width: 1500px;
+  }
+
+  .boomerang h1 {
+    margin-top: 200px;
+    margin-left: -90px;
+    font-size: 100px;
+    border-bottom: 4px solid black;
+    letter-spacing: -2px;
+  }
+
+  .boomerang p {
+    width: 500px;
+    margin-top: 360px;
+    margin-left: -495px;
+    font-size: 40px;
+  }
+
+  .bubblelicious {
+    margin-top: 100px;
+  }
+
+  .bubblelicious img {
+    width: 1500px;
+    display: inline-block;
+    margin-right: 300px;
+  }
+
+  .bubblelicious h1 {
+    margin-top: 200px;
+    margin-right: -540px;
+    font-size: 100px;
+  }
+
+  .bubblelicious p {
+    width: 500px;
+    margin-top: 360px;
+    margin-right: -90px;
+    font-size: 40px;
+  }
+
+  .missingpeople {
+    margin-top: 100px;
+    margin-left: 300px;
+  }
+
+  .missingpeople img {
+    width: 1500px;
+  }
+
+  .missingpeople h1 {
+    margin-top: 200px;
+    margin-left: -190px;
+    font-size: 100px;
+    border-bottom: 4px solid black;
+    letter-spacing: -2px;
+  }
+
+  .missingpeople p {
+    width: 550px;
+    margin-top: 360px;
+    margin-left: -595px;
+    font-size: 40px;
+  }
+
+  .kittenscup {
+    margin-top: 100px;
+  }
+
+  .kittenscup img {
+    width: 1500px;
+    margin-right: 300px;
+  }
+
+  .kittenscup h1 {
+    margin-top: 200px;
+    margin-right: -500px;
+    font-size: 100px;
+  }
+
+  .kittenscup p {
+    width: 500px;
+    margin-top: 360px;
+    margin-right: -130px;
+    font-size: 40px;
+  }
+
+  footer {
+    font-size: 20px;
+  }
+
+}
+
+@media only screen and (min-width: 2041px) and (max-width: 2350px) {
+
+  .sidebar-left-text {
+    margin-left: 38px;
+    font-size: 35px;
+  }
+
+  .sidebar-right-text {
+    margin-right: -80px;
+    font-size: 35px;
+  }
+
+  .tilda {
+    margin-top: 480px;
+  }
+
+  .tilda h1 {
+    position: relative;
+    margin-top: 0;
+    margin-right: 11%;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 120px;
+    font-weight: 100;
+    text-align: right;
+    text-transform: uppercase;
+    color: #262323;
+  }
+
+  .tilda h2 {
+    position: relative;
+    margin-top: -69px;
+    margin-right: 11%;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 120px;
+    font-weight: 100;
+    text-align: left;
+    text-transform: uppercase;
+    color: #262323;
+    -webkit-transform:rotate(-180deg);
+    -moz-transform:rotate(-180deg);
+    -o-transform:rotate(-180deg);
+    transform:rotate(-180deg);
+  }
+
+  .tilda p{
+    position: relative;
+    margin-top: -95px;
+    margin-right: 11%;
+    font-family: "Fjalla one", sans-serif;
+    font-size: 47px;
+    font-weight: bold;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+
+  .boomerang {
+    margin-left: 220px;
+  }
+
+  .boomerang img {
+    width: 1300px;
+  }
+
+  .boomerang h1 {
+    margin-top: 200px;
+    margin-left: -90px;
+    font-size: 90px;
+    border-bottom: 4px solid black;
+    letter-spacing: -2px;
+  }
+
+  .boomerang p {
+    width: 500px;
+    margin-top: 360px;
+    margin-left: -495px;
+    font-size: 35px;
+  }
+
+  .bubblelicious {
+    margin-top: 100px;
+  }
+
+  .bubblelicious img {
+    width: 1300px;
+    display: inline-block;
+    margin-right: 220px;
+  }
+
+  .bubblelicious h1 {
+    margin-top: 200px;
+    margin-right: -500px;
+    font-size: 90px;
+  }
+
+  .bubblelicious p {
+    width: 500px;
+    margin-top: 360px;
+    margin-right: -90px;
+    font-size: 35px;
+  }
+
+  .missingpeople {
+    margin-top: 100px;
+    margin-left: 220px;
+  }
+
+  .missingpeople img {
+    width: 1300px;
+  }
+
+  .missingpeople h1 {
+    margin-top: 200px;
+    margin-left: -170px;
+    font-size: 90px;
+    border-bottom: 4px solid black;
+    letter-spacing: -2px;
+  }
+
+  .missingpeople p {
+    width: 550px;
+    margin-top: 360px;
+    margin-left: -595px;
+    font-size: 35px;
+  }
+
+  .kittenscup {
+    margin-top: 100px;
+  }
+
+  .kittenscup img {
+    width: 1300px;
+    margin-right: 220px;
+  }
+
+  .kittenscup h1 {
+    margin-top: 200px;
+    margin-right: -480px;
+    font-size: 90px;
+  }
+
+  .kittenscup p {
+    width: 500px;
+    margin-top: 360px;
+    margin-right: -150px;
+    font-size: 35px;
+  }
+
+  footer {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (min-width: 1551px) and (max-width: 2040px) {
+
+  .sidebar-left-text {
+    margin-left: 38px;
+    font-size: 30px;
+  }
+
+  .sidebar-right-text {
+    margin-right: -80px;
+    font-size: 30px;
+  }
+
+  .tilda {
+    margin-top: 280px;
+  }
+
+  .tilda h1 {
+    position: relative;
+    margin-top: 0;
+    margin-right: 8%;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 90px;
+    font-weight: 100;
+    text-align: right;
+    text-transform: uppercase;
+    color: #262323;
+  }
+
+  .tilda h2 {
+    position: relative;
+    margin-top: -55px;
+    margin-right: 8%;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 90px;
+    font-weight: 100;
+    text-align: left;
+    text-transform: uppercase;
+    color: #262323;
+    -webkit-transform:rotate(-180deg);
+    -moz-transform:rotate(-180deg);
+    -o-transform:rotate(-180deg);
+    transform:rotate(-180deg);
+  }
+
+  .tilda p{
+    position: relative;
+    margin-top: -75px;
+    margin-right: 8%;
+    font-family: "Fjalla one", sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+
+  .boomerang {
+    margin-left: 120px;
+  }
+
+  .boomerang img {
+    width: 900px;
+  }
+
+  .boomerang h1 {
+    margin-top: 100px;
+    margin-left: -80px;
+    font-size: 70px;
+    border-bottom: 4px solid black;
+    letter-spacing: -2px;
+  }
+
+  .boomerang p {
+    width: 450px;
+    margin-top: 220px;
+    margin-left: -400px;
+    font-size: 30px;
+  }
+
+  .bubblelicious {
+    margin-top: 100px;
+  }
+
+  .bubblelicious img {
+    width: 900px;
+    display: inline-block;
+    margin-right: 120px;
+  }
+
+  .bubblelicious h1 {
+    margin-top: 100px;
+    margin-right: -430px;
+    font-size: 70px;
+  }
+
+  .bubblelicious p {
+    width: 450px;
+    margin-top: 220px;
+    margin-right: -70px;
+    font-size: 30px;
+  }
+
+  .missingpeople {
+    margin-top: 100px;
+    margin-left: 120px;
+  }
+
+  .missingpeople img {
+    width: 900px;
+  }
+
+  .missingpeople h1 {
+    margin-top: 100px;
+    margin-left: -50px;
+    font-size: 70px;
+    border-bottom: 4px solid black;
+    letter-spacing: -2px;
+  }
+
+  .missingpeople p {
+    width: 550px;
+    margin-top: 220px;
+    margin-left: -510px;
+    font-size: 30px;
+  }
+
+  .kittenscup {
+    margin-top: 100px;
+  }
+
+  .kittenscup img {
+    width: 900px;
+    margin-right: 120px;
+  }
+
+  .kittenscup h1 {
+    margin-top: 100px;
+    margin-right: -390px;
+    font-size: 70px;
+  }
+
+  .kittenscup p {
+    width: 450px;
+    margin-top: 220px;
+    margin-right: -120px;
+    font-size: 30px;
+  }
+
+  footer {
+    font-size: 18px;
+  }
+
+}
+
+@media only screen and (min-width: 1221px) and (max-width: 1551px) {
+
+  .sidebar-left-text {
+    margin-left: 30px;
+    font-size: 29px;
+  }
+
+  .sidebar-right-text {
+    margin-right: -90px;
+    font-size: 29px;
+  }
+
+  .tilda {
+    margin-top: 280px;
+  }
+
+  .tilda h1 {
+    position: relative;
+    margin-top: 0;
+    margin-right: 8%;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 80px;
+    font-weight: 100;
+    text-align: right;
+    text-transform: uppercase;
+    color: #262323;
+  }
+
+  .tilda h2 {
+    position: relative;
+    margin-top: -50px;
+    margin-right: 8%;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 80px;
+    font-weight: 100;
+    text-align: left;
+    text-transform: uppercase;
+    color: #262323;
+    -webkit-transform:rotate(-180deg);
+    -moz-transform:rotate(-180deg);
+    -o-transform:rotate(-180deg);
+    transform:rotate(-180deg);
+  }
+
+  .tilda p{
+    position: relative;
+    margin-top: -70px;
+    margin-right: 8%;
+    font-family: "Fjalla one", sans-serif;
+    font-size: 31px;
+    font-weight: bold;
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+  }
+
+  .boomerang {
+    margin-left: 120px;
+  }
+
+  .boomerang img {
+    width: 650px;
+  }
+
+  .boomerang h1 {
+    margin-top: 70px;
+    margin-left: -30px;
+    font-size: 55px;
+    border-bottom: 3px solid black;
+  }
+
+  .boomerang p {
+    width: 400px;
+    margin-top: 160px;
+    margin-left: -330px;
+    font-size: 25px;
+  }
+
+  .bubblelicious {
+    margin-top: 100px;
+  }
+
+  .bubblelicious img {
+    width: 650px;
+    display: inline-block;
+    margin-right: 120px;
+  }
+
+  .bubblelicious h1 {
+    margin-top: 70px;
+    margin-right: -355px;
+    font-size: 55px;
+    border-bottom: 3px solid black;
+  }
+
+  .bubblelicious p {
+    width: 400px;
+    margin-top: 160px;
+    margin-right: -70px;
+    font-size: 25px;
+  }
+
+  .missingpeople {
+    margin-top: 70px;
+    margin-left: 120px;
+  }
+
+  .missingpeople img {
+    width: 650px;
+  }
+
+  .missingpeople h1 {
+    margin-top: 50px;
+    margin-left: -40px;
+    font-size: 60px;
+    border-bottom: 3px solid black;
+  }
+
+  .missingpeople p {
+    width: 400px;
+    margin-top: 150px;
+    margin-left: -400px;
+    font-size: 25px;
+  }
+
+  .kittenscup {
+    margin-top: 100px;
+  }
+
+  .kittenscup img {
+    width: 650px;
+    margin-right: 120px;
+  }
+
+  .kittenscup h1 {
+    margin-top: 70px;
+    margin-right: -350px;
+    font-size: 60px;
+    border-bottom: 3px solid black;
+  }
+
+  .kittenscup p {
+    width: 400px;
+    margin-top: 180px;
+    margin-right: -80px;
+    font-size: 25px;
+  }
+
+  footer {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1026px) and (max-width: 1220px) {
+
+  .sidebar-left-text {
+    margin-left: 30px;
+    font-size: 28px;
+  }
+
+  .sidebar-right-text {
+    margin-right: -90px;
+    font-size: 28px;
+  }
+
+  .tilda {
+    margin-top: 190px;
+  }
+
+  .tilda h1 {
+    margin-right: 8%;
+    font-size: 60px;
+  }
+
+  .tilda h2 {
+    margin-top: -35px;
+    margin-right: 8%;
+    font-size: 60px;
+  }
+
+  .tilda p {
+    margin-top: -50px;
+    margin-right: 8%;
+    font-size: 23px;
+  }
+
+  .boomerang {
+    margin-left: 120px;
+  }
+
+  .boomerang img {
+    width: 500px;
+  }
+
+  .boomerang h1 {
+    margin-top: 40px;
+    margin-left: -30px;
+    font-size: 45px;
+    border-bottom: 3px solid black;
+  }
+
+  .boomerang p {
+    width: 300px;
+    margin-top: 115px;
+    margin-left: -260px;
+    font-size: 20px;
+  }
+
+  .bubblelicious {
+    margin-top: 100px;
+  }
+
+  .bubblelicious img {
+    width: 500px;
+    display: inline-block;
+    margin-right: 120px;
+  }
+
+  .bubblelicious h1 {
+    margin-top: 40px;
+    margin-right: -275px;
+    font-size: 45px;
+    border-bottom: 3px solid black;
+  }
+
+  .bubblelicious p {
+    width: 300px;
+    margin-top: 115px;
+    margin-right: -50px;
+    font-size: 20px;
+  }
+
+  .missingpeople {
+    margin-top: 100px;
+    margin-left: 120px;
+  }
+
+  .missingpeople img {
+    width: 500px;
+  }
+
+  .missingpeople h1 {
+    margin-top: 30px;
+    margin-left: -40px;
+    font-size: 45px;
+    border-bottom: 3px solid black;
+  }
+
+  .missingpeople p {
+    width: 300px;
+    margin-top: 105px;
+    margin-left: -285px;
+    font-size: 20px;
+  }
+
+  .kittenscup {
+    margin-top: 100px;
+  }
+
+  .kittenscup img {
+    width: 500px;
+    margin-right: 120px;
+  }
+
+  .kittenscup h1 {
+    margin-top: 60px;
+    margin-right: -250px;
+    font-size: 45px;
+    border-bottom: 3px solid black;
+  }
+
+  .kittenscup p {
+    width: 300px;
+    margin-top: 155px;
+    margin-right: -40px;
+    font-size: 20px;
+  }
+
+  footer {
+    font-size: 17px;
+  }
+
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1025px) {
+
+  .sidebar-left-text {
+    margin-left: 20px;
+    font-size: 23px;
+  }
+
+  .sidebar-right-text {
+    margin-right: -80px;
+    font-size: 23px;
+  }
+
+  .tilda {
+    margin-top: 190px;
+  }
+
+  .tilda h1 {
+    margin-right: 8%;
+    font-size: 45px;
+  }
+
+  .tilda h2 {
+    margin-top: -27px;
+    margin-right: 8%;
+    font-size: 45px;
+  }
+
+  .tilda p {
+    margin-top: -37px;
+    margin-right: 8%;
+    font-size: 17px;
+  }
+
+  .boomerang {
     margin-left: 70px;
   }
 
-  .upper-div h1 {
-    font-size: 13px;
+  .boomerang img {
+    width: 480px;
   }
 
-  .upper-div p {
-    margin-top: -5px;
-    font-size: 12px;
+  .boomerang h1 {
+    margin-top: 40px;
+    margin-left: -30px;
+    font-size: 40px;
+    border-bottom: 2px solid black;
   }
 
-  .upper-div span {
-    font-weight: 400;
+  .boomerang p {
+    width: 250px;
+    margin-top: 115px;
+    margin-left: -220px;
+    font-size: 16px;
   }
 
-  .box {
-    position: relative;
+  .bubblelicious {
+    margin-top: 80px;
+  }
+
+  .bubblelicious img {
+    width: 480px;
     display: inline-block;
-    height: 30px;
-    padding: 0 20px;
-    vertical-align: middle;
-    font-family: "Fira Sans Four", sans-serif;
-    font-size: 13px;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: none;
-    line-height: 30px;
-    color: #fcb258;
-    cursor: pointer;
-    border: 1px solid #000000;
-    -webkit-transition:0.5s;
-    transition: 0.5s;
+    margin-right: 70px;
   }
 
-  .body-text {
-    width: 100%;
-    height: 300px;
-    padding: 70px 0;
-    background-color: #fff;
-    font-size: 18px;
-    text-align: center;
-    color: #25373C;
+  .bubblelicious h1 {
+    margin-top: 40px;
+    margin-right: -230px;
+    font-size: 40px;
+    border-bottom: 2px solid black;
   }
 
-  .body-text h1 {
-    margin-bottom: 10px;
-    font-family: "Rukou", sans-serif;
-    font-size: 42px;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
+  .bubblelicious p {
+    width: 250px;
+    margin-top: 115px;
+    margin-right: -50px;
+    font-size: 16px;
   }
 
-  .body-text p {
-    position: relative;
-    display: inline-block;
-    padding: 20px;
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 200;
-    text-align: center;
-    vertical-align: middle;
-    color: #45636B;
+  .missingpeople {
+    margin-top: 80px;
+    margin-left: 70px;
   }
 
-  #midtext {
-    width: 220px;
-    position: relative;
-    margin-left: -10px;
-    text-align: left;
+  .missingpeople img {
+    width: 480px;
   }
 
-  #readmore, #readmore:hover, #readmore:visited {
-    width: 50px;
-    position: relative;
-    font-size: 12px;
-    text-align: left;
-    text-decoration: none;
-    color: #000000;
+  .missingpeople h1 {
+    margin-top: 30px;
+    margin-left: -40px;
+    font-size: 40px;
+    border-bottom: 2px solid black;
   }
 
-  #bild img {
-    width: 180px;
-    position: relative;
-    text-align: center;
+  .missingpeople p {
+    width: 250px;
+    margin-top: 105px;
+    margin-left: -250px;
+    font-size: 16px;
+  }
+
+  .kittenscup {
+    margin-top: 80px;
+  }
+
+  .kittenscup img {
+    width: 480px;
+    margin-right: 70px;
+  }
+
+  .kittenscup h1 {
+    margin-top: 40px;
+    margin-right: -220px;
+    font-size: 40px;
+    border-bottom: 2px solid black;
+  }
+
+  .kittenscup p {
+    width: 250px;
+    margin-top: 115px;
+    margin-right: -40px;
+    font-size: 16px;
   }
 
   footer {
-    margin: 0 auto;
-    bottom: 0;
-    padding: 30px;
-    font-family: "Fira Sans Four", sans-serif;
-    font-size: 13px;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
-    color: #7b746e;
-    background-color: #ffffff;
+    font-size: 15px;
   }
 
 }
 
-@media only screen and (min-width: 489px) and (max-width: 689px) {
-
-  .landingpage {
-    width: 100%;
-    min-height: 100vh;
-    top: 0;
-    left: 0;
-    background-image: none;
-  }
+@media only screen and (min-width: 661px) and (max-width: 768px) {
 
   .sidebar-left-text {
-    font-size: 17px;
+    margin-left: 12px;
+    font-size: 20px;
   }
 
   .sidebar-right-text {
-    font-size: 17px;
-    margin-right: -40px;
+    margin-right: -70px;
+    font-size: 20px;
   }
 
   .tilda {
-    margin-bottom: 20px;
+    margin-top: 100px;
   }
 
   .tilda h1 {
-    position: relative;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 0;
-    font-family: "Fjalla One", sans-serif;
-    font-size: 45px;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: underline;
-    color: #000000;
+    margin-right: 8%;
+    font-size: 43px;
   }
 
   .tilda h2 {
-    position: relative;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: -10px;
-    font-family: "Fjalla One", sans-serif;
-    font-size: 45px;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
-    color: #000000;
-    -webkit-transform:rotate(-180deg);
-    -moz-transform:rotate(-180deg);
-    -o-transform:rotate(-180deg);
-    transform:rotate(-180deg);
+    margin-top: -25px;
+    margin-right: 8%;
+    font-size: 43px;
   }
 
-  .upper-div {
-    margin-left: 0px;
-    margin-right: 0px;
-    margin: 0 auto;
-    text-align: center;
+  .tilda p {
+    margin-top: -37px;
+    margin-right: 8%;
+    font-size: 16.5px;
   }
 
-  .upper-div h1 {
-    font-size: 14px;
-    font-weight: 400;
+  .boomerang {
+    margin-left: 60px;
   }
 
-  .upper-div span {
-    font-weight: 400;
-  }
-
-  .upper-div p {
-    margin-top: -5px;
-    font-size: 12px;
-    font-weight: 400;
-  }
-
-  .body-text {
-    width: 100%;
-    height: 600px;
-    padding: 70px 0;
-    background-color: #fff;
-    font-size: 18px;
-    text-align: center;
-    color: #25373C;
-  }
-
-  .body-text h1 {
-    margin-bottom: 10px;
-    font-family: "Rukou", sans-serif;
-    font-size: 42px;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  .body-text p {
-    position: relative;
-    display: inline-block;
-    padding: 20px;
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-weight: 200;
-    text-align: center;
-    vertical-align: middle;
-    color: #45636B;
-  }
-
-  #midtext {
-    width: 220px;
-    position: relative;
-    margin-left: -10px;
-    text-align: left;
-  }
-
-  #readmore, #readmore:hover, #readmore:visited {
-    width: 50px;
-    position: relative;
-    font-size: 12px;
-    text-align: left;
-    text-decoration: none;
-    color: #000000;
-  }
-
-  #bild img {
+  .boomerang img {
     width: 400px;
-    position: relative;
-    text-align: center;
+  }
+
+  .boomerang h1 {
+    margin-top: 40px;
+    margin-left: -30px;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+  }
+
+  .boomerang p {
+    width: 200px;
+    margin-top: 95px;
+    margin-left: -170px;
+    font-size: 13px;
+  }
+
+  .bubblelicious {
+    margin-top: 50px;
+  }
+
+  .bubblelicious img {
+    width: 400px;
+    display: inline-block;
+    margin-right: 60px;
+  }
+
+  .bubblelicious h1 {
+    margin-top: 40px;
+    margin-right: -180px;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+  }
+
+  .bubblelicious p {
+    width: 200px;
+    margin-top: 95px;
+    margin-right: -50px;
+    font-size: 13px;
+  }
+
+  .missingpeople {
+    margin-top: 50px;
+    margin-left: 60px;
+  }
+
+  .missingpeople img {
+    width: 400px;
+  }
+
+  .missingpeople h1 {
+    margin-top: 30px;
+    margin-left: -40px;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+  }
+
+  .missingpeople p {
+    width: 200px;
+    margin-top: 85px;
+    margin-left: -190px;
+    font-size: 13px;
+  }
+
+  .kittenscup {
+    margin-top: 50px;
+  }
+
+  .kittenscup img {
+    width: 400px;
+    margin-right: 60px;
+  }
+
+  .kittenscup h1 {
+    margin-top: 40px;
+    margin-right: -170px;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+  }
+
+  .kittenscup p {
+    width: 200px;
+    margin-top: 95px;
+    margin-right: -60px;
+    font-size: 13px;
+  }
+
+  .lower-div {
+    margin-bottom: 70px;
   }
 
   footer {
-    margin: 0 auto;
-    bottom: 0;
-    padding: 14px;
-    font-family: "Fira Sans Four", sans-serif;
-    font-size: 12px;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
-    color: #7b746e;
-    background-color: #ffffff;
+    font-size: 13px;
   }
+
 
 }
 
-@media only screen and (min-width: 320px) and (max-width: 490px) {
+@media only screen and (min-width: 426px) and (max-width: 660px) {
 
   .landingpage {
-    width: 100%;
-    min-height: 100vh;
-    top: 0;
-    left: 0;
+    background-color: #7E756F;
     background-image: none;
   }
 
   .sidebar-left-text {
-    font-size: 13px;
+    margin-left: 12px;
+    font-size: 14px;
   }
 
   .sidebar-right-text {
-    font-size: 13px;
-    margin-right: -40px;
+    margin-right: -50px;
+    font-size: 14px;
   }
 
   .tilda {
-    margin-bottom: 20px;
-    text-align: center;
+    width: 290px;
+    padding: 30px;
+    height: 120px;
+    margin-top: 150px;
+    border: 1px solid black;
   }
 
   .tilda h1 {
-    position: relative;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin: 0 auto;
+    margin-right: 0%;
+    font-size: 43px;
     text-align: center;
-    margin-top: 0;
-    font-family: "Fjalla One", sans-serif;
-    font-size: 40px;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: underline;
-    color: #000000;
   }
 
   .tilda h2 {
-    position: relative;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin: 0 auto;
+    margin-top: -25px;
+    margin-right: 0%;
+    font-size: 43px;
     text-align: center;
-    margin-top: -10px;
-    font-family: "Fjalla One", sans-serif;
-    font-size: 40px;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
-    color: #000000;
-    -webkit-transform:rotate(-180deg);
-    -moz-transform:rotate(-180deg);
-    -o-transform:rotate(-180deg);
-    transform:rotate(-180deg);
   }
 
-  .upper-div {
-    margin-left: 0px;
-    margin-right: 0px;
+  .tilda p {
+    margin-top: -37px;
+    margin-right: 0%;
+    font-size: 16.5px;
+    text-align: center;
+  }
+
+  .lower-div {
+    margin-bottom: 60px;
+  }
+
+  .boomerang {
     margin: 0 auto;
     text-align: center;
   }
 
-  .upper-div h1 {
-    font-size: 12px;
-    margin-left: 0px;
-    font-weight: 400;
-  }
-
-  .upper-div span {
-    font-size: 12px;
-    font-weight: 400;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .upper-div p {
-    margin-top: -2px;
-    font-size: 12px;
-    font-weight: 400;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .body-text {
-    width: 100%;
-    height: 400px;
-    padding: 70px 0;
-    background-color: #fff;
-    font-size: 18px;
-    text-align: center;
-    color: #25373C;
-  }
-
-  .body-text h1 {
-    font-family: "Rukou", sans-serif;
-    font-size: 35px;
-    font-weight: 100;
-    text-align: center;
-    text-transform: uppercase;
-  }
-
-  .body-text p {
-    position: relative;
+  .boomerang img {
+    width: 400px;
     display: inline-block;
-    margin-bottom: -20px;
-    padding: 20px;
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
-    font-weight: 200;
-    text-align: center;
-    vertical-align: middle;
-    color: #45636B;
   }
 
-  #midtext {
-    margin-top: -10px;
-    width: 170px;
-    position: relative;
-    text-align: left;
-  }
-
-  #readmore, #readmore:hover, #readmore:visited {
+  .boomerang h1 {
     visibility: hidden;
+    position: absolute;
   }
 
-  #bild img {
-    width: 240px;
-    position: relative;
-    margin-bottom: 30px;
+  .boomerang p {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .bubblelicious {
+    margin: 0 auto;
+    margin-top: 30px;
     text-align: center;
+  }
+
+  .bubblelicious img {
+    width: 400px;
+    display: inline-block;
+    margin-right: 0px;
+  }
+
+  .bubblelicious h1 {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .bubblelicious p {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .missingpeople {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .missingpeople img {
+    width: 400px;
+    display: inline-block;
+  }
+
+  .missingpeople h1 {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .missingpeople p {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .kittenscup {
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .kittenscup img {
+    width: 400px;
+    display: inline-block;
+    margin-right: 0px;
+  }
+
+  .kittenscup h1 {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .kittenscup p {
+    visibility: hidden;
+    position: absolute;
   }
 
   footer {
-    margin: 0 auto;
-    bottom: 0;
-    padding: 30px;
-    font-family: "Fira Sans Four", sans-serif;
-    font-size: 11px;
-    font-weight: 100;
+    font-size: 9px;
+  }
+
+}
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+
+
+    .landingpage {
+      background-color: #7E756F;
+      background-image: none;
+    }
+
+    .sidebar-left-text {
+      margin-left: 12px;
+      font-size: 14px;
+    }
+
+    .sidebar-right-text {
+      margin-right: -50px;
+      font-size: 14px;
+    }
+
+    .tilda {
+      width: 280px;
+      padding: 10px;
+      height: 120px;
+      margin-top: 170px;
+      border: 1px solid black;    }
+
+    .tilda h1 {
+      margin-right: 0%;
+      font-size: 43px;
+      text-align: center;
+    }
+
+    .tilda h2 {
+      margin-top: -25px;
+      margin-right: 0%;
+      font-size: 43px;
+      text-align: center;
+    }
+
+    .tilda p {
+      margin-top: -37px;
+      margin-right: 0%;
+      font-size: 16.5px;
+      text-align: center;
+    }
+
+    .lower-div {
+      margin-bottom: 60px;
+    }
+
+    .boomerang {
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .boomerang img {
+      width: 300px;
+      display: inline-block;
+    }
+
+    .boomerang h1 {
+      visibility: hidden;
+      position: absolute;
+    }
+
+    .boomerang p {
+      visibility: hidden;
+      position: absolute;
+    }
+
+    .bubblelicious {
+      margin: 0 auto;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .bubblelicious img {
+      width: 300px;
+      display: inline-block;
+      margin-right: 0px;
+    }
+
+    .bubblelicious h1 {
+      visibility: hidden;
+      position: absolute;
+    }
+
+    .bubblelicious p {
+      visibility: hidden;
+      position: absolute;
+    }
+
+    .missingpeople {
+      margin: 0 auto;
+      margin-top: 30px;
+      margin-left: 0px;
+      text-align: center;
+    }
+
+    .missingpeople img {
+      width: 300px;
+      display: inline-block;
+    }
+
+    .missingpeople h1 {
+      visibility: hidden;
+      position: absolute;
+    }
+
+    .missingpeople p {
+      visibility: hidden;
+      position: absolute;
+    }
+
+    .kittenscup {
+      margin: 0 auto;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .kittenscup img {
+      width: 300px;
+      display: inline-block;
+      margin-right: 0px;
+    }
+
+    .kittenscup h1 {
+      visibility: hidden;
+      position: absolute;
+    }
+
+    .kittenscup p {
+      visibility: hidden;
+      position: absolute;
+    }
+
+    footer {
+      font-size: 9px;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+
+  .landingpage {
+    background-color: #7E756F;
+    background-image: none;
+  }
+
+  .sidebar-left-text {
+    margin-left: 12px;
+    font-size: 14px;
+  }
+
+  .sidebar-right-text {
+    margin-right: -50px;
+    font-size: 14px;
+  }
+
+  .tilda {
+    width: 220px;
+    padding: 10px;
+    height: 95px;
+    margin-top: 170px;
+    border: 1px solid black;    }
+
+  .tilda h1 {
+    margin-right: 0%;
+    font-size: 35px;
     text-align: center;
-    text-transform: uppercase;
-    color: #7b746e;
-    background-color: #ffffff;
+  }
+
+  .tilda h2 {
+    margin-top: -20px;
+    margin-right: 0%;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .tilda p {
+    margin-top: -30px;
+    margin-right: 0%;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .lower-div {
+    margin-bottom: 30px;
+  }
+
+  .boomerang {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .boomerang img {
+    width: 265px;
+    display: inline-block;
+  }
+
+  .boomerang h1 {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .boomerang p {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .bubblelicious {
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .bubblelicious img {
+    width: 265px;
+    display: inline-block;
+    margin-right: 0px;
+  }
+
+  .bubblelicious h1 {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .bubblelicious p {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .missingpeople {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .missingpeople img {
+    width: 265px;
+    display: inline-block;
+  }
+
+  .missingpeople h1 {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .missingpeople p {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .kittenscup {
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .kittenscup img {
+    width: 265px;
+    display: inline-block;
+    margin-right: 0px;
+  }
+
+  .kittenscup h1 {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  .kittenscup p {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  footer {
+    font-size: 9px;
   }
 
 }
