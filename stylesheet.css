@@ -885,16 +885,16 @@ footer {
 
   .sidebar-left-text {
     margin-left: 30px;
-    font-size: 29px;
+    font-size: 22px;
   }
 
   .sidebar-right-text {
-    margin-right: -90px;
-    font-size: 29px;
+    margin-right: -70px;
+    font-size: 22px;
   }
 
   .tilda {
-    margin-top: 280px;
+    margin-top: 150px;
   }
 
   .tilda h1 {
@@ -902,7 +902,7 @@ footer {
     margin-top: 0;
     margin-right: 8%;
     font-family: "Fjalla One", sans-serif;
-    font-size: 80px;
+    font-size: 75px;
     font-weight: 100;
     text-align: right;
     text-transform: uppercase;
@@ -911,10 +911,10 @@ footer {
 
   .tilda h2 {
     position: relative;
-    margin-top: -50px;
+    margin-top: -47px;
     margin-right: 8%;
     font-family: "Fjalla One", sans-serif;
-    font-size: 80px;
+    font-size: 75px;
     font-weight: 100;
     text-align: left;
     text-transform: uppercase;
@@ -927,10 +927,10 @@ footer {
 
   .tilda p{
     position: relative;
-    margin-top: -70px;
+    margin-top: -65px;
     margin-right: 8%;
     font-family: "Fjalla one", sans-serif;
-    font-size: 31px;
+    font-size: 29px;
     font-weight: bold;
     text-align: right;
     text-transform: uppercase;
