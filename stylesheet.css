@@ -194,15 +194,14 @@ to   { opacity: 1; }
   margin-bottom: 50px;
   bottom: 0;
   left: 0; right: 0;
-  width: 40px;
-  height: 40px;
-  font-size: 40px;
-  line-height: 40px;
+  width: 47px;
+  height: 35px;
+  line-height: 35px;
   -webkit-animation: bounce 2s infinite ease-in-out;
 }
 
 .arrow img {
-  width: 40px;
+  width: 47px;
   margin: 0 auto;
   text-align: center;
 }
@@ -242,7 +241,7 @@ to   { opacity: 1; }
   font-size: 60px;
   font-weight: 500;
   text-align: center;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid #aa8c38;
   letter-spacing: -2px;
   vertical-align: top;
   color: #000000;
@@ -288,7 +287,7 @@ to   { opacity: 1; }
   font-size: 60px;
   font-weight: 500;
   text-align: center;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid #9e4260;
   letter-spacing: -2px;
   vertical-align: top;
   color: #000000;
@@ -334,7 +333,7 @@ to   { opacity: 1; }
   font-size: 60px;
   font-weight: 500;
   text-align: center;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid #515927;
   letter-spacing: -2px;
   vertical-align: top;
   color: #000000;
@@ -380,7 +379,7 @@ to   { opacity: 1; }
   font-size: 60px;
   font-weight: 500;
   text-align: center;
-  border-bottom: 4px solid black;
+  border-bottom: 4px solid #387772;
   letter-spacing: -2px;
   vertical-align: top;
   color: #000000;
@@ -484,7 +483,7 @@ footer {
     width: 1500px;
   }
 
-  .boomerang h1 {
+  . {
     margin-top: 200px;
     margin-left: -90px;
     font-size: 100px;
@@ -513,6 +512,7 @@ footer {
     margin-top: 200px;
     margin-right: -540px;
     font-size: 100px;
+    border-bottom: 4px solid #9e4260;
   }
 
   .bubblelicious p {
@@ -535,7 +535,7 @@ footer {
     margin-top: 200px;
     margin-left: -190px;
     font-size: 100px;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid #515927;
     letter-spacing: -2px;
   }
 
@@ -559,6 +559,7 @@ footer {
     margin-top: 200px;
     margin-right: -500px;
     font-size: 100px;
+    border-bottom: 4px solid #387772;
   }
 
   .kittenscup p {
@@ -638,7 +639,7 @@ footer {
     width: 1300px;
   }
 
-  .boomerang h1 {
+  . {
     margin-top: 200px;
     margin-left: -90px;
     font-size: 90px;
@@ -667,6 +668,7 @@ footer {
     margin-top: 200px;
     margin-right: -500px;
     font-size: 90px;
+    border-bottom: 4px solid #9e4260;
   }
 
   .bubblelicious p {
@@ -689,7 +691,7 @@ footer {
     margin-top: 200px;
     margin-left: -170px;
     font-size: 90px;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid #515927;
     letter-spacing: -2px;
   }
 
@@ -713,6 +715,7 @@ footer {
     margin-top: 200px;
     margin-right: -480px;
     font-size: 90px;
+    border-bottom: 4px solid #387772;
   }
 
   .kittenscup p {
@@ -795,7 +798,7 @@ footer {
     margin-top: 100px;
     margin-left: -80px;
     font-size: 70px;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid #aa8c38;
     letter-spacing: -2px;
   }
 
@@ -820,6 +823,7 @@ footer {
     margin-top: 100px;
     margin-right: -430px;
     font-size: 70px;
+    border-bottom: 4px solid #9e4260;
   }
 
   .bubblelicious p {
@@ -842,7 +846,7 @@ footer {
     margin-top: 100px;
     margin-left: -50px;
     font-size: 70px;
-    border-bottom: 4px solid black;
+    border-bottom: 4px solid #515927;
     letter-spacing: -2px;
   }
 
@@ -866,6 +870,7 @@ footer {
     margin-top: 100px;
     margin-right: -390px;
     font-size: 70px;
+    border-bottom: 4px solid #387772;
   }
 
   .kittenscup p {
@@ -948,15 +953,15 @@ footer {
   .boomerang h1 {
     margin-top: 70px;
     margin-left: -30px;
-    font-size: 55px;
-    border-bottom: 3px solid black;
+    font-size: 50px;
+    border-bottom: 3px solid #aa8c38;
   }
 
   .boomerang p {
-    width: 400px;
-    margin-top: 160px;
-    margin-left: -330px;
-    font-size: 25px;
+    width: 350px;
+    margin-top: 150px;
+    margin-left: -310px;
+    font-size: 20px;
   }
 
   .bubblelicious {
@@ -971,16 +976,16 @@ footer {
 
   .bubblelicious h1 {
     margin-top: 70px;
-    margin-right: -355px;
-    font-size: 55px;
-    border-bottom: 3px solid black;
+    margin-right: -315px;
+    font-size: 50px;
+    border-bottom: 3px solid #9e4260;
   }
 
   .bubblelicious p {
-    width: 400px;
-    margin-top: 160px;
-    margin-right: -70px;
-    font-size: 25px;
+    width: 350px;
+    margin-top: 150px;
+    margin-right: -60px;
+    font-size: 20px;
   }
 
   .missingpeople {
@@ -993,21 +998,21 @@ footer {
   }
 
   .missingpeople h1 {
-    margin-top: 50px;
-    margin-left: -40px;
-    font-size: 60px;
-    border-bottom: 3px solid black;
+    margin-top: 70px;
+    margin-left: -50px;
+    font-size: 50px;
+    border-bottom: 3px solid #515927;
   }
 
   .missingpeople p {
-    width: 400px;
+    width: 350px;
     margin-top: 150px;
-    margin-left: -400px;
-    font-size: 25px;
+    margin-left: -330px;
+    font-size: 20px;
   }
 
   .kittenscup {
-    margin-top: 100px;
+    margin-top: 70px;
   }
 
   .kittenscup img {
@@ -1017,16 +1022,16 @@ footer {
 
   .kittenscup h1 {
     margin-top: 70px;
-    margin-right: -350px;
-    font-size: 60px;
-    border-bottom: 3px solid black;
+    margin-right: -300px;
+    font-size: 50px;
+    border-bottom: 3px solid #387772;
   }
 
   .kittenscup p {
-    width: 400px;
-    margin-top: 180px;
+    width: 350px;
+    margin-top: 150px;
     margin-right: -80px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   footer {
@@ -1079,7 +1084,7 @@ footer {
     margin-top: 40px;
     margin-left: -30px;
     font-size: 45px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #aa8c38;
   }
 
   .boomerang p {
@@ -1103,7 +1108,7 @@ footer {
     margin-top: 40px;
     margin-right: -275px;
     font-size: 45px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #9e4260;
   }
 
   .bubblelicious p {
@@ -1126,7 +1131,7 @@ footer {
     margin-top: 30px;
     margin-left: -40px;
     font-size: 45px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #515927;
   }
 
   .missingpeople p {
@@ -1149,7 +1154,7 @@ footer {
     margin-top: 60px;
     margin-right: -250px;
     font-size: 45px;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #387772;
   }
 
   .kittenscup p {
@@ -1211,7 +1216,7 @@ footer {
     margin-top: 40px;
     margin-left: -30px;
     font-size: 40px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #aa8c38;
   }
 
   .boomerang p {
@@ -1235,7 +1240,7 @@ footer {
     margin-top: 40px;
     margin-right: -230px;
     font-size: 40px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #9e4260;
   }
 
   .bubblelicious p {
@@ -1258,7 +1263,7 @@ footer {
     margin-top: 30px;
     margin-left: -40px;
     font-size: 40px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #515927;
   }
 
   .missingpeople p {
@@ -1281,7 +1286,7 @@ footer {
     margin-top: 40px;
     margin-right: -220px;
     font-size: 40px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #387772;
   }
 
   .kittenscup p {
@@ -1292,7 +1297,7 @@ footer {
   }
 
   footer {
-    font-size: 15px;
+    font-size: 13px;
   }
 
 }
@@ -1342,7 +1347,7 @@ footer {
     margin-top: 40px;
     margin-left: -30px;
     font-size: 30px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #aa8c38;
   }
 
   .boomerang p {
@@ -1366,7 +1371,7 @@ footer {
     margin-top: 40px;
     margin-right: -180px;
     font-size: 30px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #9e4260;
   }
 
   .bubblelicious p {
@@ -1389,7 +1394,7 @@ footer {
     margin-top: 30px;
     margin-left: -40px;
     font-size: 30px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #515927;
   }
 
   .missingpeople p {
@@ -1412,7 +1417,7 @@ footer {
     margin-top: 40px;
     margin-right: -170px;
     font-size: 30px;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #387772;
   }
 
   .kittenscup p {
