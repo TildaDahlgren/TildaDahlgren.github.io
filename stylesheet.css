@@ -230,6 +230,8 @@ to   { opacity: 1; }
 .boomerang img {
   width: 700px;
   display: inline-block;
+  border: 30px solid #fff4d8;
+
 }
 
 .boomerang h1 {
@@ -276,6 +278,7 @@ to   { opacity: 1; }
   width: 700px;
   display: inline-block;
   margin-right: 100px;
+  border: 30px solid #ffe5ee;
 }
 
 .bubblelicious h1 {
@@ -322,6 +325,7 @@ to   { opacity: 1; }
 .missingpeople img {
   width: 700px;
   display: inline-block;
+  border: 30px solid #eef2da;
 }
 
 .missingpeople h1 {
@@ -368,6 +372,7 @@ to   { opacity: 1; }
   width: 700px;
   display: inline-block;
   margin-right: 100px;
+  border: 30px solid #e5fffc;
 }
 
 .kittenscup h1 {
