@@ -302,19 +302,19 @@ nav a {
   text-align: left;
   vertical-align: top;
   background-color: #f2efea;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 #model {
   width: 400px;
   height: 280px;
   display: inline-block;
-  margin-left: 35px;
+  margin-left: 45px;
   padding: 30px;
   text-align: left;
   vertical-align: top;
   background-color: #f2efea;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .lower-div h1 {
