@@ -232,6 +232,15 @@ to   { opacity: 1; }
   display: inline-block;
   border: 30px solid #fff4d8;
 
+  -moz-transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.boomerang img:hover {
+  -moz-transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .boomerang h1 {
@@ -279,6 +288,16 @@ to   { opacity: 1; }
   display: inline-block;
   margin-right: 100px;
   border: 30px solid #ffe5ee;
+
+  -moz-transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.bubblelicious img:hover {
+  -moz-transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .bubblelicious h1 {
@@ -326,6 +345,16 @@ to   { opacity: 1; }
   width: 700px;
   display: inline-block;
   border: 30px solid #eef2da;
+
+  -moz-transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.missingpeople img:hover {
+  -moz-transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .missingpeople h1 {
@@ -373,6 +402,16 @@ to   { opacity: 1; }
   display: inline-block;
   margin-right: 100px;
   border: 30px solid #e5fffc;
+
+  -moz-transition: all 0.7s;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.kittenscup img:hover {
+  -moz-transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .kittenscup h1 {
