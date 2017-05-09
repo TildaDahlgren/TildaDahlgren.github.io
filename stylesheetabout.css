@@ -190,6 +190,11 @@ to   { opacity: 1; }
   text-align: left;
 }
 
+#tilda-abouttext a, #tilda-abouttext a:visited, #tilda-abouttext a:hover {
+  color: #a0a0a0;
+  text-decoration: none;
+}
+
 .site-content-1 #sunflower {
   width: 300px;
   position: absolute;
