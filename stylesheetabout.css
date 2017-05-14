@@ -153,7 +153,6 @@ to   { opacity: 1; }
   right: -250px;
 }
 
-
 #bee:hover {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
@@ -502,6 +501,7 @@ footer {
   .sidebar-left-text {
     margin-left: 5px;
     font-size: 20px;
+    top: 44vh;
   }
 
   .sidebar-right-text {
@@ -668,6 +668,7 @@ footer {
   .sidebar-left-text {
     margin-left: 5px;
     font-size: 10px;
+    top: 41vh;
   }
 
   .sidebar-right-text {
@@ -752,7 +753,7 @@ footer {
   .sidebar-left-text {
     margin-left: 5px;
     font-size: 10px;
-    top: 48vh;
+    top: 45vh;
   }
 
   .sidebar-right-text {
