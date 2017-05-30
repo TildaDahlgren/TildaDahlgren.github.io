@@ -10,6 +10,7 @@ html, body {
 a {
   cursor: pointer;
 }
+
 a:hover {
   cursor: pointer;
 }
@@ -51,19 +52,21 @@ a:hover {
 }
 
 .about {
-  font-family: "Megrim", cursive;
+  font-family: "Fjalla One", sans-serif;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 300;
   text-decoration: none;
+  text-transform: uppercase;
   color: #f9f9f9;
 }
 
 .email {
   margin-left: 100px;
-  font-family: "Megrim", cursive;
+  font-family: "Fjalla One", sans-serif;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 300;
   text-decoration: none;
+  text-transform: uppercase;
   color: #f9f9f9;
 }
 
