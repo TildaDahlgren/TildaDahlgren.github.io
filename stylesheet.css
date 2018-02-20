@@ -70,6 +70,16 @@ a:hover {
   color: #f9f9f9;
 }
 
+.cv {
+  margin-left: 100px;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #f9f9f9;
+}
+
 #menu-row a:hover {
   padding-bottom: 3px;
   border-bottom: 1px solid #ffffff;
@@ -362,6 +372,11 @@ footer {
     font-size: 30px;
   }
 
+  .cv {
+    margin-left: 150px;
+    font-size: 30px;
+  }
+
   #menu-row a:hover {
     border-bottom: 2px solid #ffffff;
   }
@@ -554,6 +569,11 @@ footer {
   }
 
   .email {
+    margin-left: 120px;
+    font-size: 25px;
+  }
+
+  .cv {
     margin-left: 120px;
     font-size: 25px;
   }
@@ -751,6 +771,11 @@ footer {
   }
 
   .email {
+    margin-left: 100px;
+    font-size: 18px;
+  }
+
+  .cv {
     margin-left: 100px;
     font-size: 18px;
   }
@@ -993,6 +1018,11 @@ footer {
     font-size: 18px;
   }
 
+  .cv {
+    margin-left: 100px;
+    font-size: 18px;
+  }
+
   #menu-row a:hover {
     border-bottom: 1px solid #ffffff;
   }
@@ -1191,6 +1221,11 @@ footer {
   }
 
   .email {
+    margin-left: 80px;
+    font-size: 16px;
+  }
+
+  .cv {
     margin-left: 80px;
     font-size: 16px;
   }
@@ -1398,6 +1433,11 @@ footer {
     font-size: 16px;
   }
 
+  .cv {
+    margin-left: 70px;
+    font-size: 16px;
+  }
+
   #menu-row a:hover {
     border-bottom: 1px solid #ffffff;
   }
@@ -1598,6 +1638,11 @@ footer {
   }
 
   .email {
+    margin-left: 50px;
+    font-size: 16px;
+  }
+
+  .cv {
     margin-left: 50px;
     font-size: 16px;
   }
