@@ -112,69 +112,7 @@ a:hover {
   text-align: center;
 }
 
-.boomerang {
-  width: 400px;
-  height: 500px;
-  position: relative;
-  display: inline-block;
-  margin: 0 auto;
-  padding: 10px;
-  overflow: hidden;
-}
-
-.boomerang-pic img {
-  height: 500px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 101;
-}
-
-.boomerang-pic img:hover {
-  opacity: 0;
-  transition: 0.6s ease;
-}
-
-.viewprojectpic1 img {
-  height: 500px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 100;
-}
-
-.bubblelicious {
-  width: 706px;
-  height: 500px;
-  position: relative;
-  display: inline-block;
-  margin: 0 auto;
-  padding: 10px;
-  overflow: hidden;
-}
-
-.bubblelicious-pic img {
-  height: 500px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 101;
-}
-
-.bubblelicious-pic img:hover {
-  opacity: 0;
-  transition: 0.6s ease;
-}
-
-.viewprojectpic2 img {
-  height: 500px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  z-index: 100;
-}
-
-.sthal {
+.bontouch {
   width: 553px;
   height: 392px;
   position: relative;
@@ -183,7 +121,7 @@ a:hover {
   padding: 10px;
 }
 
-.sthal-pic img {
+.bontouch-pic img {
   height: 392px;
   position: absolute;
   top: 10px;
@@ -191,12 +129,12 @@ a:hover {
   z-index: 101;
 }
 
-.sthal-pic img:hover {
+.bontouch-pic img:hover {
   opacity: 0;
   transition: 0.6s ease;
 }
 
-.viewprojectpic3 img {
+.viewprojectpic5 img {
   height: 392px;
   position: absolute;
   top: 10px;
@@ -233,6 +171,67 @@ a:hover {
   left: 10px;
   z-index: 100;
 }
+
+.sthal {
+  width: 553px;
+  height: 392px;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.sthal-pic img {
+  height: 392px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 101;
+}
+
+.sthal-pic img:hover {
+  opacity: 0;
+  transition: 0.6s ease;
+}
+
+.viewprojectpic3 img {
+  height: 392px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+}
+
+.bubblelicious {
+  width: 553px;
+  height: 392px;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.bubblelicious-pic img {
+  height: 392px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 101;
+}
+
+.bubblelicious-pic img:hover {
+  opacity: 0;
+  transition: 0.6s ease;
+}
+
+.viewprojectpic2 img {
+  height: 392px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+}
+
 
 #about-flow {
   width: 100%;
